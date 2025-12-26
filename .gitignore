@@ -61,3 +61,4 @@ docs/mshp_school_list_notes.md
 secrets.yml
 .env.local
 
+.claude/
