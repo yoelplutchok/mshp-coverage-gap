@@ -1,0 +1,59 @@
+# MSHP Coverage Gap - Parameters
+# All magic numbers and thresholds go here
+
+# Geographic parameters
+geography:
+  borough: "X"  # Bronx borough code
+  borough_name: "BRONX"
+  bronx_bounds:
+    min_lat: 40.78
+    max_lat: 40.92
+    min_lon: -73.93
+    max_lon: -73.75
+  crs_wgs84: "EPSG:4326"
+
+# NYC Open Data parameters
+nyc_open_data:
+  school_locations_dataset: "fgmk-2drc"
+  base_url: "https://data.cityofnewyork.us/resource"
+
+# MSHP matching parameters
+matching:
+  fuzzy_threshold: 85  # Minimum similarity score (0-100)
+  review_threshold: 90  # Flag matches below this for manual review
+
+# Priority scoring weights (must sum to 1.0)
+priority_weights:
+  asthma_burden: 0.4
+  chronic_absenteeism: 0.4
+  enrollment_size: 0.2
+
+# Tier classification (percentile thresholds)
+priority_tiers:
+  tier_1_critical: 80  # Top 20%
+  tier_2_high: 60      # 60-80%
+  tier_3_moderate: 40  # 40-60%
+  # Below 40% = Tier 4 (Lower)
+
+# Visualization
+colors:
+  mshp_covered: "#2E7D32"    # Green
+  mshp_not_covered: "#C62828" # Red
+  asthma_choropleth:
+    low: "#FFF9C4"
+    medium: "#FFB74D"
+    high: "#B71C1C"
+  priority_tiers:
+    tier_1: "#B71C1C"  # Dark red
+    tier_2: "#FF8C00"  # Orange
+    tier_3: "#FFD700"  # Yellow
+    tier_4: "#D3D3D3"  # Light gray
+
+# Map settings
+map:
+  center_lat: 40.85
+  center_lon: -73.85
+  zoom: 12
+  point_size_min: 5
+  point_size_max: 25
+

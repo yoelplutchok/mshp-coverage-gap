@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Data (keep structure, ignore contents)
+data/raw/*
+data/processed/*
+data/manual/*
+!data/**/.gitkeep
+!data/**/ACQUISITION.md
+!data/raw/manifest.json
+
+# Keep geo boundaries if small
+!data/geo/*.geojson
+
+# Logs
+logs/*.jsonl
+
+# Outputs (regenerable, but keep key files for demo)
+outputs/tables/*
+!outputs/**/.gitkeep
+
+# Keep important figures for README/demo
+!outputs/figures/health_equity_composite.png
+!outputs/figures/causal_inference_summary.png
+!outputs/figures/demographics_comparison.png
+!outputs/figures/health_burden_heatmap.png
+!outputs/figures/propensity_scores.png
+!outputs/figures/priority_tier_distribution.png
+!outputs/figures/absenteeism_comparison.png
+
+# Keep interactive maps for GitHub Pages
+!outputs/interactive/*.html
+
+# GitHub Pages folder (keep all)
+!gh-pages/
+
+# Exclude internal planning/validation docs
+mshp_coverage_gap_execution_plan.md
+docs/data_validation_report.md
+docs/mshp_school_list_notes.md
+
+# API keys
+*.key
+secrets.yml
+.env.local
+

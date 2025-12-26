@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSHP Coverage Gap - Interactive Maps</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0d1117;
+            --bg-card: #161b22;
+            --text-primary: #f0f6fc;
+            --text-secondary: #8b949e;
+            --accent-green: #2ea44f;
+            --accent-red: #f85149;
+            --accent-blue: #58a6ff;
+            --accent-orange: #d29922;
+            --border: #30363d;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            padding: 3rem 0;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 3rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-green));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .stat {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            text-align: center;
+            min-width: 140px;
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            font-family: 'Space Mono', monospace;
+        }
+        
+        .stat-value.green { color: var(--accent-green); }
+        .stat-value.red { color: var(--accent-red); }
+        .stat-value.orange { color: var(--accent-orange); }
+        
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            margin-top: 0.25rem;
+        }
+        
+        .maps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .map-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .map-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+        }
+        
+        .map-preview {
+            height: 200px;
+            background: linear-gradient(135deg, #1a1f2e, #2d3748);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+        }
+        
+        .map-content {
+            padding: 1.5rem;
+        }
+        
+        .map-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .map-description {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        
+        .map-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-tag {
+            background: rgba(88, 166, 255, 0.15);
+            color: var(--accent-blue);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: var(--accent-green);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.2s;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .btn:hover {
+            background: #3fb950;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 3rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid var(--border);
+            color: var(--text-secondary);
+        }
+        
+        footer a {
+            color: var(--accent-blue);
+            text-decoration: none;
+        }
+        
+        .github-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            color: var(--text-primary);
+            text-decoration: none;
+            margin-top: 1rem;
+            transition: border-color 0.2s;
+        }
+        
+        .github-link:hover {
+            border-color: var(--accent-blue);
+        }
+        
+        @media (max-width: 768px) {
+            h1 { font-size: 1.75rem; }
+            .stats { gap: 1rem; }
+            .stat { min-width: 100px; padding: 1rem; }
+            .stat-value { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏥 MSHP Coverage Gap</h1>
+            <p class="subtitle">Mapping School-Based Healthcare in the Bronx</p>
+            
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-value">370</div>
+                    <div class="stat-label">Bronx Schools</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value green">84</div>
+                    <div class="stat-label">MSHP Covered</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value red">286</div>
+                    <div class="stat-label">Not Covered</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value orange">58</div>
+                    <div class="stat-label">Tier 1 Priority</div>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <div class="maps-grid">
+                <div class="map-card">
+                    <div class="map-preview">🗺️</div>
+                    <div class="map-content">
+                        <h2 class="map-title">Enhanced Coverage Map</h2>
+                        <p class="map-description">
+                            Interactive map showing MSHP coverage overlaid on childhood asthma burden. 
+                            Features dark theme, pulsing markers for priority schools, and multiple base layers.
+                        </p>
+                        <div class="map-features">
+                            <span class="feature-tag">Dark Theme</span>
+                            <span class="feature-tag">Pulsing Markers</span>
+                            <span class="feature-tag">Layer Toggle</span>
+                            <span class="feature-tag">Minimap</span>
+                        </div>
+                        <a href="mshp_coverage_gap_map_enhanced.html" class="btn">Open Map →</a>
+                    </div>
+                </div>
+                
+                <div class="map-card">
+                    <div class="map-preview">📊</div>
+                    <div class="map-content">
+                        <h2 class="map-title">Priority & SVI Map</h2>
+                        <p class="map-description">
+                            Shows enhanced priority rankings with Social Vulnerability Index overlay. 
+                            Identifies schools in "health deserts" more than 1 mile from MSHP coverage.
+                        </p>
+                        <div class="map-features">
+                            <span class="feature-tag">SVI Choropleth</span>
+                            <span class="feature-tag">Priority Tiers</span>
+                            <span class="feature-tag">Health Deserts</span>
+                        </div>
+                        <a href="enhanced_priority_map.html" class="btn">Open Map →</a>
+                    </div>
+                </div>
+                
+                <div class="map-card">
+                    <div class="map-preview">📍</div>
+                    <div class="map-content">
+                        <h2 class="map-title">Basic Coverage Map</h2>
+                        <p class="map-description">
+                            Clean, simple visualization of MSHP school distribution with 
+                            neighborhood asthma rate choropleth and detailed school popups.
+                        </p>
+                        <div class="map-features">
+                            <span class="feature-tag">Simple Design</span>
+                            <span class="feature-tag">School Popups</span>
+                            <span class="feature-tag">Asthma Overlay</span>
+                        </div>
+                        <a href="mshp_coverage_gap_map.html" class="btn">Open Map →</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>
+                Data from <a href="https://opendata.cityofnewyork.us/">NYC Open Data</a> and 
+                <a href="https://montefioreeinstein.org/">Montefiore Einstein</a>
+            </p>
+            <a href="https://github.com/USERNAME/mshp-coverage-gap" class="github-link">
+                <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                </svg>
+                View on GitHub
+            </a>
+        </footer>
+    </div>
+</body>
+</html>
+
