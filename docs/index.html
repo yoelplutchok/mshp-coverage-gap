@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSHP Coverage Gap - Interactive Maps</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg: #0d1117; --card: #161b22; --text: #f0f6fc; --muted: #8b949e; --green: #2ea44f; --red: #f85149; --blue: #58a6ff; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; padding: 2rem; }
+        .container { max-width: 1000px; margin: 0 auto; }
+        h1 { font-size: 2rem; margin-bottom: 0.5rem; background: linear-gradient(135deg, var(--blue), var(--green)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .subtitle { color: var(--muted); margin-bottom: 2rem; }
+        .stats { display: flex; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap; }
+        .stat { background: var(--card); padding: 1rem 1.5rem; border-radius: 8px; text-align: center; }
+        .stat-val { font-size: 1.5rem; font-weight: 700; }
+        .stat-val.green { color: var(--green); } .stat-val.red { color: var(--red); }
+        .maps { display: grid; gap: 1rem; }
+        .map-link { display: block; background: var(--card); padding: 1.5rem; border-radius: 12px; text-decoration: none; color: var(--text); transition: transform 0.2s; }
+        .map-link:hover { transform: translateY(-2px); }
+        .map-link h2 { font-size: 1.1rem; margin-bottom: 0.5rem; }
+        .map-link p { color: var(--muted); font-size: 0.9rem; }
+        footer { margin-top: 2rem; text-align: center; color: var(--muted); font-size: 0.85rem; }
+        footer a { color: var(--blue); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏥 MSHP Coverage Gap</h1>
+        <p class="subtitle">Mapping School-Based Healthcare in the Bronx</p>
+        <div class="stats">
+            <div class="stat"><div class="stat-val">370</div><div>Schools</div></div>
+            <div class="stat"><div class="stat-val green">84</div><div>Covered</div></div>
+            <div class="stat"><div class="stat-val red">286</div><div>Not Covered</div></div>
+        </div>
+        <div class="maps">
+            <a href="mshp_coverage_gap_map_enhanced.html" class="map-link">
+                <h2>🗺️ Enhanced Coverage Map</h2>
+                <p>Dark theme with pulsing markers for priority schools</p>
+            </a>
+            <a href="enhanced_priority_map.html" class="map-link">
+                <h2>📊 Priority & SVI Map</h2>
+                <p>Social Vulnerability Index overlay with priority tiers</p>
+            </a>
+            <a href="mshp_coverage_gap_map.html" class="map-link">
+                <h2>📍 Basic Coverage Map</h2>
+                <p>Simple visualization with neighborhood asthma rates</p>
+            </a>
+        </div>
+        <footer>
+            <a href="https://github.com/yoelplutchok/mshp-coverage-gap">View on GitHub</a>
+        </footer>
+    </div>
+</body>
+</html>
