@@ -12,6 +12,17 @@
 
 ---
 
+> **📖 NEW: For a comprehensive, detailed explanation of this project, see [PROJECT_EXPLANATION.md](PROJECT_EXPLANATION.md)**
+>
+> The comprehensive guide includes:
+> - In-depth technical architecture and design decisions
+> - Detailed data pipeline explanations with code examples
+> - Complete methodology documentation
+> - How-to guides for policy makers, researchers, and developers
+> - Advanced topics and extension ideas
+
+---
+
 ## Project Overview
 
 This project analyzes the geographic distribution of the **Montefiore School Health Program (MSHP)** across Bronx public schools, identifying coverage gaps in neighborhoods with the highest childhood asthma burden and chronic absenteeism.
@@ -227,6 +238,33 @@ Contributions are welcome! Please:
 1. Fork the repository
 2. Create a feature branch
 3. Submit a pull request
+
+---
+
+## Documentation
+
+### Quick Start
+This README provides a high-level overview and quick start guide.
+
+### Comprehensive Documentation
+For in-depth understanding, see **[PROJECT_EXPLANATION.md](PROJECT_EXPLANATION.md)**, which includes:
+
+| Section | What You'll Learn |
+|---------|-------------------|
+| **Executive Summary** | What the project does and why it matters |
+| **Project Purpose & Context** | Research questions and problem background |
+| **Technical Architecture** | Technology stack, design principles, and project structure |
+| **Data Pipeline** | Step-by-step explanation of all 14 scripts |
+| **Analysis Methodology** | Statistical methods, causal inference, and validation |
+| **Key Findings** | Detailed results with interpretation |
+| **How to Use** | Guides for policy makers, researchers, and developers |
+| **Extending the Project** | Ideas for future work and customization |
+| **Technical Deep Dive** | Advanced topics with code examples |
+
+### Additional Resources
+- **[Data Dictionary](docs/data_dictionary.md)** - Field definitions and data sources
+- **[Methodology](docs/methodology.md)** - Analysis methods and formulas
+- **[Limitations](docs/limitations.md)** - Known limitations and caveats
 
 ---
 
