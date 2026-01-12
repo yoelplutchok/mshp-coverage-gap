@@ -244,7 +244,7 @@ with tab3:
     
     risk_df = equity_data.get('equity_intersectional_risk')
     
-    if risk_df is not None:
+    if risk_df is not None and not risk_df.empty:
         fig = go.Figure()
         
         main_rows = risk_df[risk_df['risk_factor_count'] != '3+ (High Risk)']
@@ -316,7 +316,7 @@ with tab4:
     
     disparities_df = equity_data.get('equity_demographic_disparities')
     
-    if disparities_df is not None:
+    if disparities_df is not None and not disparities_df.empty:
         fig = go.Figure()
         
         fig.add_trace(go.Bar(

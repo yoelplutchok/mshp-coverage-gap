@@ -137,7 +137,7 @@ with metric4:
     st.metric("Neighborhoods Covered", f"{neighborhoods_covered}")
 
 comparison_df = scenarios.get('comparison')
-if comparison_df is not None and len(comparison_df) > 0:
+if comparison_df is not None and not comparison_df.empty:
     with st.expander("Compare all strategies", expanded=False):
         fig = create_expansion_impact_chart(comparison_df)
         if fig:

@@ -168,7 +168,7 @@ with tab2:
     
     scenarios = load_expansion_scenarios()
     
-    if scenarios['comparison'] is not None:
+    if scenarios['comparison'] is not None and not scenarios['comparison'].empty:
         fig = create_expansion_impact_chart(scenarios['comparison'])
         if fig:
             st.plotly_chart(fig, use_container_width=True)
@@ -187,7 +187,7 @@ with tab2:
         
         with col2:
             scenario_df = scenarios.get(n_schools)
-            if scenario_df is not None:
+            if scenario_df is not None and not scenario_df.empty:
                 method_col = None
                 if 'method' in scenario_df.columns:
                     method_col = 'method'

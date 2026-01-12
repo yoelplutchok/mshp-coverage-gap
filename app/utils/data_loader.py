@@ -224,8 +224,8 @@ def load_equity_data() -> dict:
     for table in tables:
         try:
             equity_data[table] = pd.read_csv(TABLES_DIR / f"{table}.csv")
-        except FileNotFoundError:
-            equity_data[table] = None
+        except (FileNotFoundError, pd.errors.EmptyDataError):
+            equity_data[table] = pd.DataFrame()
     
     return equity_data
 
@@ -242,13 +242,13 @@ def load_expansion_scenarios() -> dict:
             if 'method' not in df.columns and 'selection_method' in df.columns:
                 df['method'] = df['selection_method']
             scenarios[n] = df
-        except FileNotFoundError:
-            scenarios[n] = None
+        except (FileNotFoundError, pd.errors.EmptyDataError):
+            scenarios[n] = pd.DataFrame()
     
     try:
         scenarios['comparison'] = pd.read_csv(TABLES_DIR / "expansion_scenarios_comparison.csv")
-    except FileNotFoundError:
-        scenarios['comparison'] = None
+    except (FileNotFoundError, pd.errors.EmptyDataError):
+        scenarios['comparison'] = pd.DataFrame()
     
     return scenarios
 
