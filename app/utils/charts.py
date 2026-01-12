@@ -49,13 +49,13 @@ def apply_dark_theme(fig):
             gridcolor='rgba(0, 0, 0, 0.05)',
             zerolinecolor='rgba(0, 0, 0, 0.1)',
             tickfont=dict(color=COLORS['muted']),
-            titlefont=dict(color=COLORS['text'])
+            title_font=dict(color=COLORS['text'])
         ),
         yaxis=dict(
             gridcolor='rgba(0, 0, 0, 0.05)',
             zerolinecolor='rgba(0, 0, 0, 0.1)',
             tickfont=dict(color=COLORS['muted']),
-            titlefont=dict(color=COLORS['text'])
+            title_font=dict(color=COLORS['text'])
         ),
         margin=dict(l=40, r=40, t=60, b=40),
     )

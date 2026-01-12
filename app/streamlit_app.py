@@ -27,24 +27,28 @@ st.markdown("""
     }
     
     .main-header {
-        background: #f8f9fa;
-        padding: 1.5rem 2rem;
-        border-radius: 8px;
-        margin-bottom: 1.5rem;
-        border: 1px solid #e9ecef;
+        background: linear-gradient(135deg, #0054a3 0%, #003366 100%);
+        padding: 2rem;
+        border-radius: 12px;
+        margin-bottom: 2rem;
+        box-shadow: 0 4px 12px rgba(0, 84, 163, 0.15);
+        color: #ffffff;
     }
     
     .main-header h1 {
-        color: #1a1a2e;
-        font-size: 2rem;
-        font-weight: 700;
+        color: #ffffff !important;
+        font-size: 2.25rem;
+        font-weight: 800;
         margin: 0;
+        letter-spacing: -0.02em;
     }
     
     .main-header p {
-        color: #444444;
-        font-size: 1.1rem;
-        margin: 0.5rem 0 0 0;
+        color: #e3f2fd !important;
+        font-size: 1.2rem;
+        margin: 0.75rem 0 0 0;
+        font-weight: 500;
+        opacity: 0.9;
     }
     
     .metric-card {
@@ -333,7 +337,7 @@ st.markdown("""
 st.markdown("""
 <div class="author-footer">
     <div class="author-name">Yoel Y. Plutchok</div>
-    <a href="https://github.com/yoelplutchok/nyc-school-environmental-health" target="_blank">View Source Code on GitHub</a>
+    <a href="https://github.com/yoelplutchok/mshp-coverage-gap" target="_blank">View Source Code on GitHub</a>
     <div style="color: #666666; font-size: 0.8rem; margin-top: 1rem;">
         Data sources: NYC DOE, NYC DOHMH, Montefiore Einstein
     </div>

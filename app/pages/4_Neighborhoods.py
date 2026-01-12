@@ -55,11 +55,12 @@ st.markdown("""
     .st-emotion-cache-1wivap2 { color: #666666 !important; }
     
     .neighborhood-header {
-        background: #f8f9fa;
-        padding: 1.5rem;
-        border-radius: 8px;
-        margin-bottom: 1.5rem;
-        border: 1px solid #e9ecef;
+        background: linear-gradient(135deg, #0054a3 0%, #003366 100%);
+        padding: 2rem;
+        border-radius: 12px;
+        margin-bottom: 2rem;
+        box-shadow: 0 4px 12px rgba(0, 84, 163, 0.15);
+        color: #ffffff;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -84,8 +85,8 @@ neigh_schools = df[df['uhf_name'] == selected_neighborhood]
 
 st.markdown(f"""
 <div class="neighborhood-header">
-    <h2 style="color: #ffffff; margin: 0;">{selected_neighborhood}</h2>
-    <p style="color: #e2e8f0; margin: 0.5rem 0 0 0;">
+    <h2 style="color: #ffffff !important; margin: 0;">{selected_neighborhood}</h2>
+    <p style="color: #e3f2fd !important; margin: 0.5rem 0 0 0; font-weight: 500; opacity: 0.9;">
         {int(neigh_data['total_schools'])} schools | {int(neigh_data['total_students']):,} students
     </p>
 </div>
@@ -250,7 +251,7 @@ st.markdown("---")
 st.markdown("""
 <div class="author-footer">
     <div class="author-name">Yoel Y. Plutchok</div>
-    <a href="https://github.com/yoelplutchok/nyc-school-environmental-health" target="_blank">View Source Code on GitHub</a>
+    <a href="https://github.com/yoelplutchok/mshp-coverage-gap" target="_blank">View Source Code on GitHub</a>
     <div style="color: #666666; font-size: 0.8rem; margin-top: 1rem;">
         Data sources: NYC DOE, NYC DOHMH, Montefiore Einstein
     </div>

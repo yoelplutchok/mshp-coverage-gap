@@ -309,7 +309,7 @@ st.markdown("---")
 st.markdown("""
 <div class="author-footer">
     <div class="author-name">Yoel Y. Plutchok</div>
-    <a href="https://github.com/yoelplutchok/nyc-school-environmental-health" target="_blank">View Source Code on GitHub</a>
+    <a href="https://github.com/yoelplutchok/mshp-coverage-gap" target="_blank">View Source Code on GitHub</a>
     <div style="color: #666666; font-size: 0.8rem; margin-top: 1rem;">
         Data sources: NYC DOE, NYC DOHMH, Montefiore Einstein
     </div>
