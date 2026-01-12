@@ -5,7 +5,7 @@ MSHP Coverage Gap Analysis Dashboard
 An interactive dashboard for exploring Montefiore School Health Program
 coverage gaps across Bronx public schools.
 
-Run with: streamlit run streamlit_app.py
+Run with: streamlit run app/Overview.py
 """
 import streamlit as st
 
