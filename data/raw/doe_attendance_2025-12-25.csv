@@ -1,0 +1,347 @@
+dbn,school_name,year,enrollment,chronic_absenteeism_rate
+07X001,P.S. 001 Courtlandt School,2024-25,447,37.3601799
+07X005,P.S. 5 Port Morris,2024-25,717,23.98884201
+07X018,P.S. 018 John Peter Zenger,2024-25,322,35.714286799999996
+07X025,P.S. 025 Bilingual School,2024-25,434,25.11520767
+07X029,P.S./M.S. 029 Melrose School,2024-25,684,33.04093552
+07X030,P.S. 030 Wilton,2024-25,389,38.30334091
+07X031,P.S./M.S. 031 The William Lloyd Garrison,2024-25,615,29.10569191
+07X043,P.S. 043 Jonas Bronck,2024-25,394,26.90355301
+07X049,P.S. 049 Willis Avenue,2024-25,531,34.46327591
+07X065,P.S. 065 Mother Hale Academy,2024-25,246,32.92683029
+07X154,P.S. 154 Jonathan D. Hyatt,2024-25,240,25
+07X157,P.S. 157 Grove Hill,2024-25,414,35.26570129
+07X161,P.S. 161 Juan Ponce De Leon School,2024-25,332,41.86746979
+07X179,P.S. 179,2024-25,230,37.82608795
+07X221,South Bronx Preparatory: A College Board School,2024-25,630,26.50793648
+07X223,The Laboratory School of Finance and Technology: X,2024-25,657,27.85388184
+07X224,P.S./I.S. 224,2024-25,185,34.05405426
+07X259,"H.E.R.O. High (Health, Education, and Research Occ",2024-25,750,54
+07X277,P.S. 277,2024-25,388,37.62886429
+07X296,South Bronx Academy for Applied Media,2024-25,183,41.530056
+07X298,Academy of Public Relations,2024-25,147,31.29251671
+07X334,International Community High School,2024-25,414,44.92753601
+07X343,Academy of Applied Mathematics and Technology,2024-25,285,24.56140327
+07X359,"Leaders of Excellence, Advocacy and Discovery",2024-25,218,7.339449406
+07X369,Young Leaders Elementary School,2024-25,238,36.13445282
+07X427,Community School for Social Justice,2024-25,209,59.80861282
+07X473,Mott Haven Village Preparatory High School,2024-25,216,47.22222137
+07X495,University Heights Secondary School,2024-25,608,26.97368431
+07X500,Hostos-Lincoln Academy of Science,2024-25,468,52.56410217
+07X522,Bronx Design and Construction Academy,2024-25,240,39.16666794
+07X527,Bronx Leadership Academy II High School,2024-25,393,51.90839767
+07X533,Learning Through Play Pre-K Center,2024-25,339,53.9822998
+07X548,Careers in Sports High School,2024-25,470,47.6595726
+07X551,The Urban Assembly Bronx Academy of Letters,2024-25,436,63.76146698
+07X584,I.S. 584,2024-25,207,36.71497726
+07X600,Alfred E. Smith Career and Technical Education Hig,2024-25,418,56.45933151
+07X625,Bronx Legacy High School,2024-25,314,64.01274109
+07X642,South Bronx Literacy Academy,2024-25,99,33.33333206
+07X670,Health Opportunities High School,2024-25,253,45.45454407
+08X014,P.S. X014 Senator John Calandra,2024-25,764,40.05235672
+08X036,P.S. 036 Unionport,2024-25,730,40.95890427
+08X048,P.S. 048 Joseph R. Drake,2024-25,505,51.6831665
+08X062,P.S. 062 Inocensio Casanova,2024-25,486,41.97530746
+08X069,P.S. 069 Journey Prep School,2024-25,508,38.97637939
+08X071,P.S. 071 Rose E. Scala,2024-25,1139,34.85513687
+08X072,P.S. 072 Dr. William Dorney,2024-25,647,47.14064789
+08X075,P.S. 75 School of Research and Discovery,2024-25,547,39.12248611
+08X093,P.S. 093 Albert G. Oliver,2024-25,404,48.51485062
+08X100,P.S. 100 Isaac Clason,2024-25,472,43.4322052
+08X101,M.S. X101 Edward R. Byrne,2024-25,588,24.14966011
+08X107,P.S. 107,2024-25,451,46.78492355
+08X119,The Dr. Emmett W. Bassett School,2024-25,565,37.34513092
+08X123,J.H.S. 123 James M. Kieran,2024-25,511,41.09589005
+08X130,P.S. 130 Abram Stevens Hewitt,2024-25,332,43.37349319
+08X131,J.H.S. 131 Albert Einstein,2024-25,343,44.02332306
+08X138,P.S. 138 Samuel Randall,2024-25,556,53.05755234
+08X140,P.S. X140 The Eagle School,2024-25,390,53.84615326
+08X146,P.S. 146 Edward Collins,2024-25,321,40.80996704
+08X152,P.S. 152 Evergreen,2024-25,727,43.46630096
+08X182,P.S. 182,2024-25,440,46.81818008
+08X269,Bronx Studio School for Writers and Artists,2024-25,615,48.94308853
+08X282,Women's Academy of Excellence,2024-25,202,43.06930542
+08X293,Renaissance High School for Musical Theater and th,2024-25,405,45.92592621
+08X301,M.S. 301 Paul L. Dunbar,2024-25,173,43.93063736
+08X302,M.S. 302 Luisa Dessus Cruz,2024-25,353,32.57790375
+08X304,P.S. 304 Early Childhood School,2024-25,586,39.07849884
+08X312,Millennium Art Academy,2024-25,356,43.25842667
+08X320,Pelham Lab High School,2024-25,335,62.98507309
+08X333,The Longwood Academy of Discovery,2024-25,496,49.39516068
+08X337,The School for Inquiry and Social Justice,2024-25,404,35.64356613
+08X348,Schuylerville Preparatory High School,2024-25,352,57.67045593
+08X349,Bronx River High School,2024-25,430,39.53488541
+08X367,"Archimedes Academy for Math, Science and Technolog",2024-25,499,54.10821533
+08X371,Urban Institute of Mathematics,2024-25,402,31.59203911
+08X375,The Bronx Mathematics Preparatory School,2024-25,216,47.68518448
+08X376,Antonia Pantoja Preparatory Academy: A College Boa,2024-25,429,56.87645721
+08X392,Bronx Delta School,2024-25,430,38.83720779
+08X405,Herbert H. Lehman High School,2024-25,1128,35.7269516
+08X424,Bronx Academy for Multi-Media,2024-25,182,36.81318665
+08X432,Bronx Bridges High School,2024-25,401,45.88528824
+08X448,Soundview Academy for Culture and Scholarship,2024-25,255,56.47058868
+08X452,Gotham Collaborative High School,2024-25,336,40.47618866
+08X467,Mott Hall Community School,2024-25,284,49.29577637
+08X530,Longwood Preparatory Academy,2024-25,381,52.49343872
+08X558,Westchester Square Academy,2024-25,427,55.26932144
+08X561,Bronx Compass High School,2024-25,435,42.29885101
+08X562,Pugsley Preparatory Academy,2024-25,597,41.70854187
+08X583,P.S. 583,2024-25,460,33.47826004
+08X636,Virtual Innovators Academy,2024-25,263,34.22053146
+09X004,P.S./M.S. 004 Crotona Park West,2024-25,251,45.81673431
+09X011,P.S. 011 Highbridge,2024-25,438,37.89954376
+09X022,J.H.S. 022 Jordan L. Mott,2024-25,303,41.9141922
+09X028,P.S. 028 Mount Hope,2024-25,619,40.06462097
+09X035,P.S. 035 Franz Siegel,2024-25,402,38.55721283
+09X042,P.S. 042 Claremont,2024-25,397,51.38539124
+09X053,P.S. 053 Basheer Quisim,2024-25,691,40.086830140000004
+09X055,P.S. 055 Benjamin Franklin,2024-25,554,45.30685806
+09X058,P.S. 058,2024-25,319,43.57366943
+09X063,P.S. 063 Author's Academy,2024-25,406,40.14778137
+09X070,P.S. 070 Max Schoenfeld,2024-25,822,40.14598465
+09X073,P.S. 073 Bronx,2024-25,318,53.45911789
+09X088,P.S. X088 - S. Silverstein Little Sparrow School,2024-25,104,29.80769157
+09X109,P.S. 109 Sedgwick,2024-25,455,50.32966995
+09X110,P.S. 110 Theodore Schoenfeld,2024-25,332,47.59036255
+09X114,P.S. X114 - Luis Llorens Torres Schools,2024-25,540,41.11111069
+09X117,I.S. 117 Joseph H. Wade,2024-25,365,38.08219147
+09X126,P.S. 126 Dr Marjorie H Dunbar,2024-25,582,52.4054985
+09X128,Mott Hall III,2024-25,294,47.95918274
+09X132,P.S. 132 Garret A. Morgan,2024-25,400,58
+09X163,P.S. 163 Arthur A. Schomburg,2024-25,343,35.56851196
+09X170,P.S. 170,2024-25,152,28.94736862
+09X199,P.S. 199X - The Shakespeare School,2024-25,416,32.45192337
+09X204,P.S. 204 Morris Heights,2024-25,610,33.11475372
+09X215,Kappa,2024-25,161,23.60248375
+09X218,P.S./I.S. 218 Rafael Hernandez Dual Language Magne,2024-25,827,34.09915543
+09X219,I.S. 219 New Venture School,2024-25,274,37.2262764
+09X227,Bronx Collegiate Academy,2024-25,454,37.00440598
+09X229,I.S. 229 Roland Patterson,2024-25,184,37.5
+09X231,Eagle Academy for Young Men,2024-25,457,17.06783295
+09X232,I.S. 232,2024-25,279,29.39068031
+09X236,P.S. 236 Langston Hughes,2024-25,343,37.31778336
+09X241,Urban Assembly School for Applied Math and Science,2024-25,541,57.67097855
+09X250,Eximius College Preparatory Academy: A College Boa,2024-25,377,42.97082138
+09X252,Mott Hall Bronx High School,2024-25,335,48.95522308
+09X260,Bronx Center for Science and Mathematics,2024-25,397,36.27204132
+09X263,Validus Preparatory Academy,2024-25,308,56.49350739
+09X274,The New American Academy at Roberto Clemente State,2024-25,381,45.66929245
+09X294,The Walton Avenue School,2024-25,324,38.27160645
+09X297,Morris Academy for Collaborative Studies,2024-25,459,56.4270134
+09X303,I.S. X303 Leadership & Community Service,2024-25,306,24.50980377
+09X311,Lucero Elementary School,2024-25,321,38.0062294
+09X313,I.S. 313 School of Leadership Development,2024-25,124,35.48387146
+09X323,Bronx Writing Academy,2024-25,212,35.37735748
+09X324,Bronx Early College Academy for Teaching & Learnin,2024-25,376,39.36170197
+09X327,Comprehensive Model School Project M.S. 327,2024-25,697,42.03730392
+09X328,New Millennium Bronx Academy of the Arts,2024-25,133,31.57894707
+09X329,DreamYard Preparatory School,2024-25,320,34.6875
+09X339,I.S. 339,2024-25,201,18.40796089
+09X361,The Highbridge Green School,2024-25,416,27.40384674
+09X365,Academy for Language and Technology,2024-25,380,25.78947449
+09X403,Bronx International High School,2024-25,466,62.01716614
+09X404,School for Excellence,2024-25,s,s
+09X412,Bronx High School of Business,2024-25,323,54.79876328
+09X413,Bronx High School for Medical Science,2024-25,411,26.03406334
+09X443,The Family School,2024-25,438,41.55251312
+09X449,Grant Avenue Elementary School,2024-25,384,40.36458206
+09X454,Science and Technology Academy: A Mott Hall School,2024-25,372,36.29032135
+09X457,Sheridan Academy for Young Leaders,2024-25,447,40.49216843
+09X505,"Bronx School for Law, Government and Justice",2024-25,714,32.35293961
+09X517,Frederick Douglass Academy III Secondary School,2024-25,262,30.53435135
+09X525,Bronx Leadership Academy High School,2024-25,393,39.44020462
+09X543,High School for Violin and Dance,2024-25,146,37.67123413
+09X555,Mount Eden Children's Academy,2024-25,411,26.27737236
+09X564,Claremont International HS,2024-25,499,35.87174225
+09X568,Young Women's Leadership School of the Bronx,2024-25,504,33.13492203
+09X582,Garden of Learning and Discovery Pre-K Center,2024-25,228,59.21052551
+09X593,South Bronx International Middle School,2024-25,152,12.5
+09X594,New Pathways Academy,2024-25,158,27.21518898
+09X644,Bronx Debate Academy,2024-25,134,41.79104614
+10X003,P.S. 3 Raul Julia Micro Society,2024-25,325,44.30769348
+10X007,Milton Fein School,2024-25,391,22.25063896
+10X008,P.S. 008 Isaac Varian,2024-25,692,37.57225418
+10X009,P.S. 9 Ryer Avenue Elementary School,2024-25,523,38.24091721
+10X015,P.S. X015 Institute for Environmental Learning,2024-25,396,32.32323074
+10X020,"PS/MS 20 P.O.George J. Werdann, III",2024-25,863,43.80069351
+10X023,P.S. 023 The New Children's School,2024-25,387,41.860466
+10X024,P.S. 024 Spuyten Duyvil,2024-25,755,12.847682
+10X032,P.S. 032 Belmont,2024-25,598,48.32775879
+10X033,P.S. 033 Timothy Dwight,2024-25,849,49.70553589
+10X037,P.S. X037 - Multiple Intelligence School,2024-25,485,53.81443405
+10X045,Thomas C. Giordano Middle School 45,2024-25,467,39.61455917
+10X046,P.S. 046 Edgar Allan Poe,2024-25,663,30.46757126
+10X051,The Bronx STEM and Arts Academy,2024-25,155,41.29032135
+10X054,P.S./I.S. 54,2024-25,374,37.96791458
+10X056,P.S. 056 Norwood Heights,2024-25,662,39.42598343
+10X059,P.S. 059 The Community School of Technology,2024-25,417,43.88489151
+10X077,Bedford Park Elementary School,2024-25,468,42.30769348
+10X080,J.H.S. 080 The Mosholu Parkway,2024-25,621,36.39291382
+10X081,P.S. 081 Robert J. Christen,2024-25,734,24.11444092
+10X085,P.S. 085 Great Expectations,2024-25,786,33.07888031
+10X086,P.S. 086 Kingsbridge Heights,2024-25,1163,37.40326691
+10X091,P.S. 091 Bronx,2024-25,398,43.96984863
+10X094,P.S. 094 Kings College School,2024-25,813,40.95940781
+10X095,P.S. 095 Sheila Mencher,2024-25,924,43.07359314
+10X118,J.H.S. 118 William W. Niles,2024-25,520,34.23077011
+10X141,Riverdale / Kingsbridge Academy (Middle School / H,2024-25,1425,18.87719345
+10X159,P.S. 159 Luis Munoz Marin Biling,2024-25,146,27.39726067
+10X205,P.S. 205 Fiorello LaGuardia,2024-25,594,41.41414261
+10X206,I.S. 206 Ann Mersereau,2024-25,258,31.78294563
+10X207,P.S. 207,2024-25,423,42.55319214
+10X209,P.S. 209,2024-25,168,28.5714283
+10X213,Bronx Engineering and Technology Academy,2024-25,344,56.3953476
+10X225,Theatre Arts Production Company School,2024-25,433,51.50115585
+10X226,P.S. 226,2024-25,342,28.36257362
+10X228,Jonas Bronck Academy,2024-25,396,18.939394
+10X237,"The Marie Curie High School for Medicine, Nursing,",2024-25,287,45.99303055
+10X243,West Bronx Academy for the Future,2024-25,597,29.64824104
+10X244,The New School for Leadership and Journalism,2024-25,615,32.03252029
+10X246,P.S. 246 Poe Center,2024-25,497,47.48490906
+10X254,I.S. 254,2024-25,452,31.63716888
+10X264,Bronx Academy for Software Engineering (BASE),2024-25,390,52.56410217
+10X268,Kingsbridge International High School,2024-25,231,43.72294235
+10X279,"P.S. 279 Captain Manuel Rivera, Jr.",2024-25,679,26.36229706
+10X280,P.S./M.S. 280 Mosholu Parkway,2024-25,727,42.91609192
+10X284,Bronx School of Law and Finance,2024-25,362,50.82872772
+10X291,P.S. 291,2024-25,335,38.80596924
+10X306,P.S. 306,2024-25,416,30.52884674
+10X308,Bronx Dance Academy School,2024-25,277,42.23826599
+10X310,P.S. 310 Marble Hill,2024-25,471,39.91507339
+10X315,P.S. 315 Lab School,2024-25,217,34.56221008
+10X331,The Bronx School of Young Leaders,2024-25,372,34.94623566
+10X340,P.S. 340,2024-25,604,36.25827789
+10X342,International School for Liberal Arts,2024-25,494,35.0202446
+10X344,Ampark Neighborhood,2024-25,310,22.90322495
+10X351,Bronx Collaborative High School,2024-25,465,76.55914307
+10X353,World View High School,2024-25,661,39.6369133
+10X360,P.S. 360,2024-25,305,42.62295151
+10X363,Academy For Personal Leadership And Excellence,2024-25,857,43.40723419
+10X368,In-Tech Academy (M.S. / High School 368),2024-25,995,24.92462349
+10X374,Knowledge and Power Preparatory Academy Internatio,2024-25,477,50.94339752
+10X386,School for Environmental Citizenship,2024-25,597,26.13065338
+10X390,M.S. 390,2024-25,333,26.12612534
+10X391,The Angelo Patri Middle School,2024-25,381,32.8083992
+10X396,P.S. 396,2024-25,241,22.4066391
+10X433,High School for Teaching and the Professions,2024-25,364,32.96703339
+10X434,Belmont Preparatory High School,2024-25,337,48.36795425
+10X437,Fordham High School for the Arts,2024-25,351,24.21652412
+10X438,Fordham Leadership Academy,2024-25,390,35.38461685
+10X439,Bronx High School for Law and Community Service,2024-25,381,34.90813828
+10X440,DeWitt Clinton High School,2024-25,1279,29.08522224
+10X442,"Celia Cruz Bronx High School of Music, The",2024-25,410,13.17073154
+10X445,The Bronx High School of Science,2024-25,2958,10.27721405
+10X447,Creston Academy,2024-25,433,31.40877533
+10X477,Marble Hill High School for International Studies,2024-25,403,29.03225899
+10X524,Crotona International High School,2024-25,395,42.27848053
+10X535,Rose Hill Early Childhood Academies,2024-25,528,66.85606384
+10X546,Bronx Theatre High School,2024-25,249,68.67469788
+10X549,Discovery High School,2024-25,411,24.57420921
+10X565,High School for Energy and Technology,2024-25,348,43.39080429
+10X696,High School of American Studies at Lehman College,2024-25,395,7.848101139
+11X016,P.S. 016 Wakefield,2024-25,390,42.30769348
+11X019,P.S. 019 Judith K. Weiss,2024-25,702,17.09401703
+11X021,P.S. 021 Philip H. Sheridan,2024-25,466,30.6866951
+11X041,P.S. 041 Gun Hill Road,2024-25,693,49.06204987
+11X068,P.S. 068 Bronx,2024-25,540,37.0370369
+11X076,P.S. 076 The Bennington School,2024-25,648,47.06790161
+11X078,P.S. 078 Anne Hutchinson,2024-25,718,49.02507019
+11X083,P.S. 083 Donald Hertz,2024-25,1579,25.14249611
+11X087,P.S. 087 Bronx,2024-25,348,32.47126389
+11X089,P.S. 089 Bronx,2024-25,1254,42.02551651
+11X096,P.S. 096 Richard Rodgers,2024-25,938,29.63752747
+11X097,P.S. 097 Bronx,2024-25,627,39.39393997
+11X103,P.S. 103 Hector Fontanez,2024-25,881,43.70034027
+11X105,P.S. 105 Sen Abraham Bernstein,2024-25,727,47.73040009
+11X106,P.S. 106 Parkchester,2024-25,895,36.87150955
+11X108,P.S. 108 Philip J. Abinanti,2024-25,711,18.28410721
+11X111,P.S. 111 Seton Falls,2024-25,448,53.348213200000004
+11X112,P.S. 112 Bronxwood,2024-25,398,46.98492432
+11X121,P.S. 121 Throop,2024-25,654,39.90825653
+11X127,J.H.S. 127 The Castle Hill,2024-25,839,27.41358757
+11X144,J.H.S. 144 Michelangelo,2024-25,410,38.53658676
+11X153,P.S. 153 Helen Keller,2024-25,458,22.92576408
+11X160,P.S. 160 Walt Disney,2024-25,305,25.24590111
+11X169,Baychester Academy,2024-25,382,36.12565613
+11X175,P.S. 175 City Island,2024-25,280,26.4285717
+11X178,P.S. 178 - Dr. Selman Waksman,2024-25,371,28.03234482
+11X180,M.S. 180 Dr. Daniel Hale Williams,2024-25,802,35.78553772
+11X181,I.S. 181 Pablo Casals,2024-25,509,32.02357483
+11X189,Cornerstone Academy for Social Action,2024-25,287,37.97909546
+11X194,P.S./M.S. 194,2024-25,1243,31.2148037
+11X249,Bronx Health Sciences High School,2024-25,361,28.80886459
+11X265,Bronx Lab School,2024-25,292,40.06849289
+11X270,Academy for Scholarship and Entrepreneurship: A Co,2024-25,469,41.79104614
+11X275,High School of Computers and Technology,2024-25,514,35.79766464
+11X287,North Bronx School of Empowerment,2024-25,377,45.62334061
+11X288,Collegiate Institute for Math and Science,2024-25,584,27.39726067
+11X290,Bronx Academy of Health Careers,2024-25,334,28.44311333
+11X299,Astor Collegiate Academy,2024-25,447,40.49216843
+11X326,Bronx Green Middle School,2024-25,380,42.63158035
+11X355,Bronx Alliance Middle School,2024-25,209,32.53588486
+11X357,Young Voices Academy of the Bronx,2024-25,403,27.29528618
+11X370,Leaders of Tomorrow,2024-25,455,47.25274658
+11X418,Bronx High School for the Visual Arts,2024-25,430,37.6744194
+11X455,Harry S Truman High School,2024-25,1806,21.4285717
+11X462,Cornerstone Academy for Social Action Middle Schoo,2024-25,179,43.57542038
+11X468,Pelham Academy of Academics and Community Engageme,2024-25,298,29.19463158
+11X481,The STEAM Bridge School,2024-25,287,28.22299576
+11X483,The Matilda Avenue School,2024-25,256,36.328125
+11X498,P.S./M.S. 11X498 - Van Nest Academy,2024-25,615,23.57723618
+11X508,Bronxdale High School,2024-25,409,25.42787361
+11X509,High School of Language and Innovation,2024-25,434,28.11059952
+11X513,New World High School,2024-25,324,25.92592621
+11X514,The Bronxwood Preparatory Academy,2024-25,429,20.74592018
+11X529,One World Middle School at Edenwald,2024-25,334,30.83832359
+11X532,Baychester Middle School,2024-25,313,44.72843552
+11X542,Pelham Preparatory Academy,2024-25,474,28.69198227
+11X544,High School for Contemporary Arts,2024-25,315,53.01587296
+11X545,Bronx Aerospace High School,2024-25,401,32.66832733
+11X556,Bronx Park Middle School,2024-25,331,46.22356415
+11X566,Pelham Gardens Middle School,2024-25,323,46.13003159
+11X567,Linden Tree Elementary School,2024-25,349,34.95701981
+12X006,P.S. 006 West Farms,2024-25,493,53.34685516
+12X044,P.S. 044 David C. Farragut,2024-25,216,50.92592621
+12X047,P.S. 047 John Randolph,2024-25,868,35.02304077
+12X057,P.S. 057 Crescent,2024-25,408,43.13725662
+12X061,P.S. 061 Francisco Oller,2024-25,195,37.43589783
+12X066,P.S. 066 School of Higher Expectations,2024-25,521,33.39731216
+12X067,P.S. 067 Mohegan School,2024-25,343,45.77259445
+12X129,M.S. 129 Academy for Independent Learning and Lead,2024-25,253,32.80632401
+12X134,P.S. 134 George F. Bristow,2024-25,506,42.49011993
+12X150,P.S. 150 Charles James Fox,2024-25,556,46.58273315
+12X190,E.S.M.T- I.S. 190,2024-25,243,43.20987701
+12X195,P.S. 195,2024-25,765,29.01960754
+12X196,P.S. 196,2024-25,744,32.66128922
+12X211,P.S. 211,2024-25,209,36.36363602
+12X214,P.S. 214,2024-25,927,48.22006607
+12X217,School of Performing Arts,2024-25,156,44.23077011
+12X242,Mott Hall V,2024-25,662,32.3262825
+12X248,"Metropolitan High School, The",2024-25,205,61.95121765
+12X251,Explorations Academy H.S.,2024-25,278,36.33093643
+12X267,Bronx Latin,2024-25,485,46.80412292
+12X271,East Bronx Academy for the Future,2024-25,688,43.6046524
+12X273,Frederick Douglass Academy V. Middle School,2024-25,174,46.55172348
+12X286,Fannie Lou Hamer Middle School,2024-25,271,41.69741821
+12X300,The School of Science and Applied Learning,2024-25,423,48.2269516
+12X314,Fairmont Neighborhood School,2024-25,284,41.1971817
+12X316,Kappa III,2024-25,272,36.76470566
+12X318,"I.S. X318 Math, Science & Technology Through Arts",2024-25,301,45.5149498
+12X341,Accion Academy,2024-25,214,40.65420532
+12X383,Emolior Academy,2024-25,406,37.68473053
+12X388,Pan American International High School at Monroe,2024-25,389,40.35989761
+12X458,Samara Community School,2024-25,342,25.14619827
+12X463,Urban Scholars Community School,2024-25,322,42.23602295
+12X478,The Cinema School,2024-25,319,51.09717941
+12X479,Bronx Career and College Preparatory High School,2024-25,162,69.7530899
+12X511,Bronx Envision Academy,2024-25,292,53.08219147
+12X521,The Metropolitan Soundview High School,2024-25,403,38.70967865
+12X531,Archer Elementary School,2024-25,341,27.27272797
+12X536,P.S. 536,2024-25,311,21.54340744
+12X550,High School of World Cultures,2024-25,418,32.77511978
+12X595,P.S. 595,2024-25,269,45.72490692
+12X626,Cultivating Hearts and Minds Pre-K Center,2024-25,194,71.13401794
+12X641,Bard High School Early College Bronx,2024-25,251,19.12350655
+12X682,Fannie Lou Hamer Freedom High School,2024-25,441,65.07936859
+12X684,Wings Academy,2024-25,261,58.62068939
+12X691,Bronx Little School,2024-25,339,21.5339241

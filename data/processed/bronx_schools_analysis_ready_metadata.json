@@ -1,0 +1,32 @@
+{
+  "_generated": "2026-01-12T01:50:48.460707+00:00",
+  "_script": "05_process_and_join.py",
+  "_run_id": "20260112_015048_29dec3c3",
+  "description": "Analysis-ready Bronx schools with all data joined",
+  "inputs": [
+    "doe_school_locations_*.csv",
+    "mshp_school_list_expanded_*.csv",
+    "doe_attendance_*.csv",
+    "uhf_42_neighborhoods.geojson",
+    "asthma_ed_visits_uhf_*.csv",
+    "asthma_hospitalizations_uhf_*.csv"
+  ],
+  "row_count": 370,
+  "columns": [
+    "dbn",
+    "school_name",
+    "address",
+    "lat",
+    "lon",
+    "district",
+    "school_type",
+    "grades",
+    "has_mshp",
+    "chronic_absenteeism_rate",
+    "enrollment",
+    "uhf_code",
+    "uhf_name",
+    "asthma_ed_rate",
+    "asthma_hosp_rate"
+  ]
+}

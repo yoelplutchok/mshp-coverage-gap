@@ -1,0 +1,20 @@
+{
+  "_generated": "2026-01-12T01:50:48.261961+00:00",
+  "_script": "05_process_and_join.py",
+  "_run_id": "20260112_015048_29dec3c3",
+  "description": "Cleaned Bronx public school locations",
+  "inputs": [
+    "data/raw/doe_school_locations_*.csv"
+  ],
+  "row_count": 370,
+  "columns": [
+    "dbn",
+    "school_name",
+    "address",
+    "lat",
+    "lon",
+    "district",
+    "school_type",
+    "grades"
+  ]
+}

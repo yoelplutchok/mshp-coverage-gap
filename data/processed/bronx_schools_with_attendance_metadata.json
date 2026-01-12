@@ -1,0 +1,24 @@
+{
+  "_generated": "2026-01-12T01:50:48.283554+00:00",
+  "_script": "05_process_and_join.py",
+  "_run_id": "20260112_015048_29dec3c3",
+  "description": "Bronx schools with MSHP status and attendance data",
+  "inputs": [
+    "bronx_schools_with_mshp_status.csv",
+    "doe_attendance_*.csv"
+  ],
+  "row_count": 370,
+  "columns": [
+    "dbn",
+    "school_name",
+    "address",
+    "lat",
+    "lon",
+    "district",
+    "school_type",
+    "grades",
+    "has_mshp",
+    "chronic_absenteeism_rate",
+    "enrollment"
+  ]
+}

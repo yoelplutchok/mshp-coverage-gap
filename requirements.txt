@@ -10,4 +10,3 @@ streamlit-folium>=0.15.0
 geopandas>=0.14.0
 pyyaml>=6.0
 scipy>=1.10.0
-

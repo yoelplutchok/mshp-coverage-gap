@@ -18,13 +18,21 @@ venv/
 *.swp
 .DS_Store
 
-# Data (keep structure, ignore contents)
+# Data (keep structure, ignore raw contents by default)
 data/raw/*
-data/processed/*
-data/manual/*
+!data/raw/*.csv
+data/raw/*.xlsx
 !data/**/.gitkeep
 !data/**/ACQUISITION.md
 !data/raw/manifest.json
+
+# Keep manual data and school lists for analysis
+!data/manual/*.csv
+
+# Keep processed data and analysis tables for deployment
+!data/processed/*.csv
+!outputs/tables/*.csv
+!outputs/tables/*.txt
 
 # Keep geo boundaries if small
 !data/geo/*.geojson
