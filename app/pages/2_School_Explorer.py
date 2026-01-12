@@ -50,7 +50,7 @@ st.markdown("""
     .st-emotion-cache-eczf16,
     .st-emotion-cache-1gulkj5,
     .st-emotion-cache-6q9sum,
-    .st-emotion-cache-1wivap2 { color: #666666 !important; }
+    .st-emotion-cache-1wivap2 { color: #444444 !important; font-weight: 500 !important; }
     
     .school-card {
         background: #ffffff;
@@ -69,8 +69,9 @@ st.markdown("""
     }
     
     .school-dbn {
-        color: #666666 !important;
+        color: #444444 !important;
         font-size: 0.9rem;
+        font-weight: 500;
     }
     
     .status-badge {
@@ -225,15 +226,15 @@ else:
                 </div>
                 <div style="margin-top: 1rem; display: flex; gap: 2rem;">
                     <div>
-                        <div style="color: #666666; font-size: 0.8rem;">Enrollment</div>
+                        <div style="color: #444444; font-size: 0.8rem; font-weight: 500;">Enrollment</div>
                         <div style="color: #1a1a2e; font-size: 1.1rem; font-weight: 700;">{int(row['enrollment']):,}</div>
                     </div>
                     <div>
-                        <div style="color: #666666; font-size: 0.8rem;">Chronic Absenteeism</div>
+                        <div style="color: #444444; font-size: 0.8rem; font-weight: 500;">Chronic Absenteeism</div>
                         <div style="color: #1a1a2e; font-size: 1.1rem; font-weight: 700;">{row['chronic_absenteeism_rate']:.1f}%</div>
                     </div>
                     <div>
-                        <div style="color: #666666; font-size: 0.8rem;">Neighborhood</div>
+                        <div style="color: #444444; font-size: 0.8rem; font-weight: 500;">Neighborhood</div>
                         <div style="color: #1a1a2e; font-size: 1.1rem; font-weight: 700;">{row['uhf_name'].split(' - ')[0]}</div>
                     </div>
                 </div>

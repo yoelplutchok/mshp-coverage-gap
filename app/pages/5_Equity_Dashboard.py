@@ -77,7 +77,7 @@ st.markdown("""
         padding: 1.25rem;
         border-radius: 0 8px 8px 0;
         margin: 1.5rem 0;
-        color: #333333 !important;
+        color: #1a1a2e !important;
         box-shadow: 0 1px 3px rgba(0,0,0,0.05);
     }
     
@@ -112,27 +112,27 @@ high_risk_count = len(equity_data.get('high_risk_uncovered_schools', pd.DataFram
 with col1:
     st.markdown(f"""
     <div class="equity-card">
-        <div style="color: #e2e8f0;">Students with Access</div>
-        <div class="equity-stat" style="color: #48bb78;">{mshp['enrollment'].sum():,.0f}</div>
-        <div style="color: #e2e8f0; font-size: 0.9rem;">{mshp['enrollment'].sum() / df['enrollment'].sum() * 100:.0f}% of enrollment</div>
+        <div style="color: #666666;">Students with Access</div>
+        <div class="equity-stat">{mshp['enrollment'].sum():,.0f}</div>
+        <div style="color: #666666; font-size: 0.9rem;">{mshp['enrollment'].sum() / df['enrollment'].sum() * 100:.0f}% of enrollment</div>
     </div>
     """, unsafe_allow_html=True)
 
 with col2:
     st.markdown(f"""
     <div class="equity-card">
-        <div style="color: #e2e8f0;">Students Without Access</div>
-        <div class="equity-stat" style="color: #fc8181;">{non_mshp['enrollment'].sum():,.0f}</div>
-        <div style="color: #e2e8f0; font-size: 0.9rem;">{non_mshp['enrollment'].sum() / df['enrollment'].sum() * 100:.0f}% of enrollment</div>
+        <div style="color: #666666;">Students Without Access</div>
+        <div class="equity-stat" style="color: #e74c3c !important;">{non_mshp['enrollment'].sum():,.0f}</div>
+        <div style="color: #666666; font-size: 0.9rem;">{non_mshp['enrollment'].sum() / df['enrollment'].sum() * 100:.0f}% of enrollment</div>
     </div>
     """, unsafe_allow_html=True)
 
 with col3:
     st.markdown(f"""
     <div class="equity-card">
-        <div style="color: #e2e8f0;">High-Risk Schools Uncovered</div>
-        <div class="equity-stat" style="color: #ecc94b;">{high_risk_count}</div>
-        <div style="color: #e2e8f0; font-size: 0.9rem;">3+ risk factors, no MSHP</div>
+        <div style="color: #666666;">High-Risk Schools Uncovered</div>
+        <div class="equity-stat" style="color: #f39c12 !important;">{high_risk_count}</div>
+        <div style="color: #666666; font-size: 0.9rem;">3+ risk factors, no MSHP</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -144,9 +144,9 @@ with col4:
         elem_coverage = 0
     st.markdown(f"""
     <div class="equity-card">
-        <div style="color: #e2e8f0;">Elementary Coverage</div>
-        <div class="equity-stat" style="color: #fc8181;">{elem_coverage:.0f}%</div>
-        <div style="color: #e2e8f0; font-size: 0.9rem;">Lowest of all school types</div>
+        <div style="color: #666666;">Elementary Coverage</div>
+        <div class="equity-stat" style="color: #e74c3c !important;">{elem_coverage:.0f}%</div>
+        <div style="color: #666666; font-size: 0.9rem;">Lowest of all school types</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -155,10 +155,10 @@ st.markdown("---")
 tab1, tab2, tab3, tab4 = st.tabs(["Demographics", "School Type", "Intersectional Risk", "Disparities"])
 
 with tab1:
-    st.subheader("Demographic Comparison: MSHP vs Non-MSHP Schools")
+    st.markdown("### Demographic Comparison: MSHP vs Non-MSHP Schools")
     
     fig = create_demographic_comparison(df)
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, use_container_width=True, key="demo_comp_bar")
     
     mshp_poverty = mshp['pct_poverty'].mean() * 100
     non_mshp_poverty = non_mshp['pct_poverty'].mean() * 100
@@ -206,11 +206,11 @@ with tab1:
     st.dataframe(pd.DataFrame(demo_data), use_container_width=True, hide_index=True)
 
 with tab2:
-    st.subheader("Coverage by School Type")
+    st.markdown("### Coverage by School Type")
     
     fig = create_school_type_coverage(df)
     if fig:
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, use_container_width=True, key="school_type_bar")
     
     if 'school_type' in df.columns:
         type_summary = df.groupby('school_type').agg({
@@ -236,7 +236,7 @@ with tab2:
         """, unsafe_allow_html=True)
 
 with tab3:
-    st.subheader("Intersectional Risk Analysis")
+    st.markdown("### Intersectional Risk Analysis")
     st.markdown("""
     Schools with **multiple risk factors** represent the highest-need population.
     Risk factors include: high poverty, high absenteeism, high asthma burden, and high special needs.
@@ -258,13 +258,13 @@ with tab3:
         ))
         
         fig.update_layout(
-            title='Distribution of Schools by Number of Risk Factors',
+            title="",
             xaxis_title='Number of Risk Factors',
             yaxis_title='Number of Schools',
             height=400
         )
         fig = apply_dark_theme(fig)
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, use_container_width=True, key="risk_dist_bar")
         
         st.markdown("### MSHP Coverage by Risk Level")
         

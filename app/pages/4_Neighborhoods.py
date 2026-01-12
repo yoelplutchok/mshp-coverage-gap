@@ -122,7 +122,7 @@ st.markdown("---")
 left_col, right_col = st.columns([1, 1])
 
 with left_col:
-    st.subheader("Coverage Breakdown")
+    st.markdown("### Coverage Breakdown")
     
     fig = go.Figure(data=[go.Pie(
         labels=['MSHP Covered', 'Not Covered'],
@@ -134,6 +134,7 @@ with left_col:
     )])
     
     fig.update_layout(
+        title="",
         showlegend=True,
         height=300,
         margin=dict(t=20, b=20, l=20, r=20),
@@ -145,10 +146,10 @@ with left_col:
         )]
     )
     fig = apply_dark_theme(fig)
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, use_container_width=True, key="neigh_pie")
 
 with right_col:
-    st.subheader("Schools in Neighborhood")
+    st.markdown("### Schools in Neighborhood")
     
     mshp_schools = neigh_schools[neigh_schools['has_mshp']]
     non_mshp_schools = neigh_schools[~neigh_schools['has_mshp']]

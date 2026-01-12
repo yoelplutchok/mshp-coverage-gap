@@ -71,13 +71,13 @@ st.markdown(
     "infer about MSHP's association with those outcomes."
 )
 
-st.subheader("Absenteeism Distribution: MSHP vs Non-MSHP")
+st.markdown("### Absenteeism Distribution: MSHP vs Non-MSHP")
 fig = create_absenteeism_comparison(df)
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig, use_container_width=True, key="absent_box")
 
 st.markdown("---")
 
-st.subheader("Dose-Response: Years with MSHP vs Absenteeism (MSHP schools only)")
+st.markdown("### Dose-Response: Years with MSHP vs Absenteeism (MSHP schools only)")
 if 'years_with_mshp' in df.columns:
     dose_df = df[df['has_mshp']].copy()
     dose_df = dose_df[pd.notna(dose_df['years_with_mshp']) & pd.notna(dose_df['chronic_absenteeism_rate'])]
@@ -97,9 +97,9 @@ if 'years_with_mshp' in df.columns:
                 'asthma_ed_rate': 'Asthma ED Rate (per 10K)',
             },
         )
-        fig2.update_layout(height=450, title="Dose-Response (descriptive)")
+        fig2.update_layout(height=450, title="")
         fig2 = apply_dark_theme(fig2)
-        st.plotly_chart(fig2, use_container_width=True)
+        st.plotly_chart(fig2, use_container_width=True, key="dose_scatter")
 
         x = dose_df['years_with_mshp'].to_numpy(dtype=float)
         y = dose_df['chronic_absenteeism_rate'].to_numpy(dtype=float)

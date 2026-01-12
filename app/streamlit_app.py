@@ -73,10 +73,10 @@ st.markdown("""
     .metric-value.amber { color: #f39c12 !important; }
     
     .metric-label {
-        color: #666666;
+        color: #444444;
         font-size: 0.9rem;
         margin-top: 0.5rem;
-        font-weight: 600;
+        font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.05em;
     }
@@ -87,7 +87,7 @@ st.markdown("""
         padding: 1.25rem;
         border-radius: 0 8px 8px 0;
         margin: 1.5rem 0;
-        color: #333333;
+        color: #1a1a2e;
         box-shadow: 0 1px 3px rgba(0,0,0,0.05);
     }
     
@@ -285,10 +285,10 @@ st.markdown("<br>", unsafe_allow_html=True)
 left_col, right_col = st.columns([1, 1])
 
 with left_col:
-    st.subheader("Coverage Overview")
+    st.markdown("### Coverage Overview")
     fig = create_coverage_donut(df)
     fig.update_layout(height=300)
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, use_container_width=True, key="main_coverage_donut")
     
     st.markdown("""
     <div class="finding-box">
@@ -298,13 +298,13 @@ with left_col:
     """.format(int(mshp_students), mshp_students/total_students*100), unsafe_allow_html=True)
 
 with right_col:
-    st.subheader("Coverage by Neighborhood")
+    st.markdown("### Coverage by Neighborhood")
     fig = create_neighborhood_coverage_bar(df)
     fig.update_layout(height=350)
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, use_container_width=True, key="main_neighborhood_bar")
 
 st.markdown("---")
-st.subheader("Priority Areas for Expansion")
+st.markdown("### Priority Areas for Expansion")
 
 neighborhood_summary = get_neighborhood_summary(df)
 priority_neighborhoods = neighborhood_summary[neighborhood_summary['coverage_pct'] < 20]
@@ -318,7 +318,7 @@ if len(priority_neighborhoods) > 0:
             <div class="metric-card">
                 <div class="metric-value red">{row['coverage_pct']:.0f}%</div>
                 <div class="metric-label">{short_name}</div>
-                <div style="color: #e2e8f0; font-size: 0.8rem; margin-top: 0.5rem;">
+                <div style="color: #444444; font-size: 0.85rem; margin-top: 0.5rem; font-weight: 500;">
                     {int(row['non_mshp_count'])} schools without MSHP<br>
                     Asthma rate: {row['asthma_rate']:.0f}/10K
                 </div>
