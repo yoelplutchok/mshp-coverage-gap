@@ -1,0 +1,49 @@
+================================================================================
+MSHP COVERAGE GAP - REGRESSION ANALYSIS
+================================================================================
+
+FULL MODEL (Model 3):
+--------------------------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.056
+Model:                            OLS   Adj. R-squared:                  0.033
+Method:                 Least Squares   F-statistic:                     2.409
+Date:                Mon, 12 Jan 2026   Prob (F-statistic):             0.0154
+Time:                        10:27:47   Log-Likelihood:                -1261.9
+No. Observations:                 336   AIC:                             2542.
+Df Residuals:                     327   BIC:                             2576.
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         46.0602     12.189      3.779      0.000      22.082      70.039
+x1            -0.3551      1.508     -0.236      0.814      -3.321       2.611
+x2             0.0654      0.150      0.437      0.663      -0.229       0.360
+x3            -0.0067      0.002     -2.945      0.003      -0.011      -0.002
+x4           -12.5678     52.296     -0.240      0.810    -115.447      90.311
+x5            -5.2061     23.621     -0.220      0.826     -51.675      41.263
+x6            -3.4898      1.759     -1.984      0.048      -6.951      -0.029
+x7            -0.0659      1.803     -0.037      0.971      -3.614       3.482
+x8             1.8390      1.526      1.205      0.229      -1.164       4.842
+==============================================================================
+Omnibus:                        1.999   Durbin-Watson:                   1.901
+Prob(Omnibus):                  0.368   Jarque-Bera (JB):                1.918
+Skew:                          -0.029   Prob(JB):                        0.383
+Kurtosis:                       3.366   Cond. No.                     5.29e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.29e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+INTERPRETATION:
+--------------------------------------------------------------------------------
+MSHP Coefficient: -0.355
+P-value: 0.8139
+
+After controlling for confounders, the MSHP effect on absenteeism
+is NOT statistically significant (p=0.814).
+This suggests selection effects or that MSHP targets high-need schools.

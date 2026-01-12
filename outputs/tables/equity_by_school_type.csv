@@ -1,0 +1,5 @@
+school_type,total_schools,mshp_count,not_covered,coverage_pct,students_covered,students_not_covered,mean_absenteeism,mean_poverty_pct
+High School,115,55,60,47.8,23958.0,22306.0,40.4,87.5
+Middle School,53,10,43,18.9,2987.0,18677.0,35.3,89.5
+Other,60,11,49,18.3,4097.0,16294.0,38.7,87.9
+Elementary,142,8,134,5.6,5040.0,61441.0,38.3,87.2

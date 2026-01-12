@@ -1,0 +1,8 @@
+uhf_name,total_schools,mshp_count,coverage_rate,health_burden,asthma_rate,obesity_rate,mental_health_rate,total_enrollment,mean_absenteeism,coverage_pct,burden_percentile,coverage_percentile,mismatch_quadrant,mismatch_score
+Hunts Point - Mott Haven,41,6,0.15,94.59,192.3,34.5,168.4,14093.0,39.08,15.0,100.0,28.57142857142857,"HIGH PRIORITY: High Burden, Low Coverage",71.4
+Crotona - Tremont,82,13,0.16,59.86,171.9,31.2,142.6,28874.0,38.68,16.0,71.42857142857143,42.857142857142854,"HIGH PRIORITY: High Burden, Low Coverage",28.6
+High Bridge - Morrisania,67,15,0.22,80.0,178.0,32.8,158.3,22158.0,40.3,22.0,85.71428571428571,71.42857142857143,"Good: High Burden, High Coverage",14.3
+Kingsbridge - Riverdale,18,2,0.11,2.57,44.8,18.5,85.2,9478.0,37.11,11.0,14.285714285714285,14.285714285714285,"Monitor: Low Burden, Low Coverage",0.0
+Northeast Bronx,40,8,0.2,14.73,104.6,22.3,98.4,18949.0,35.15,20.0,28.57142857142857,57.14285714285714,"Review: Low Burden, High Coverage",-28.6
+Fordham - Bronx Park,58,24,0.41,40.95,132.4,28.4,115.3,30108.0,37.42,41.0,57.14285714285714,100.0,"Good: High Burden, High Coverage",-42.9
+Pelham - Throgs Neck,64,16,0.25,21.76,98.3,24.1,102.1,31140.0,40.08,25.0,42.857142857142854,85.71428571428571,"Review: Low Burden, High Coverage",-42.9

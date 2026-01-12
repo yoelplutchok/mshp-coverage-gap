@@ -1,0 +1,4 @@
+test,group_1,group_1_n,group_1_mean,group_2,group_2_n,group_2_mean,difference,t_statistic,p_value,cohens_d,significant_at_05
+Independent t-test: Chronic Absenteeism,MSHP Covered,80,38.99,Not Covered,256,38.45,-0.53,0.391,0.6963,0.048,False
+Mann-Whitney U: Chronic Absenteeism,MSHP Covered,80,38.99,Not Covered,256,38.45,-0.53,10463.0,0.7692,,False
+Point-biserial Correlation: MSHP Coverage vs Asthma Rate,MSHP (binary),370,,Asthma ED Rate,370,142.88,,-0.042,0.4187,,False

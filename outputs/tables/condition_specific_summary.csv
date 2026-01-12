@@ -1,0 +1,7 @@
+condition,metric_column,median_value,high_burden_schools,high_burden_coverage_pct,low_burden_schools,low_burden_coverage_pct,coverage_gap_pp,chi_squared,p_value,significant,targeting_direction
+Asthma ED Visits (per 10K),asthma_ed_rate,171.9,108,19.4,262,24.0,-4.6,0.68,0.4099,False,Away from high burden
+Childhood Obesity (%),childhood_obesity_pct,31.2,108,19.4,262,24.0,-4.6,0.68,0.4099,False,Away from high burden
+Youth Mental Health ED (per 10K),youth_mental_health_ed_rate,142.6,108,19.4,262,24.0,-4.6,0.68,0.4099,False,Away from high burden
+Elevated Blood Lead (%),lead_elevated_pct,3.2,108,19.4,262,24.0,-4.6,0.68,0.4099,False,Away from high burden
+Food Insecurity (%),food_insecurity_pct,32.4,108,19.4,262,24.0,-4.6,0.68,0.4099,False,Away from high burden
+Preventable Hospitalizations (per 10K),preventable_hosp_rate,218.4,108,19.4,262,24.0,-4.6,0.68,0.4099,False,Away from high burden

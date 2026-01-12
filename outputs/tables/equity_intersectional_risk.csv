@@ -1,0 +1,7 @@
+risk_factor_count,total_schools,mshp_covered,not_covered,coverage_pct,description
+0,26,4,22,15.4,No risk factors
+1,64,7,57,10.9,1 risk factors
+2,117,36,81,30.8,2 risk factors
+3,118,28,90,23.7,3 risk factors
+4,45,9,36,20.0,4 risk factors
+3+ (High Risk),163,37,126,22.7,High-risk schools (3+ factors)

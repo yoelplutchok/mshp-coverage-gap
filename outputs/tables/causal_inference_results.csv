@@ -1,0 +1,4 @@
+method,mshp_effect,interpretation
+Unadjusted,0.5343462498085927,MSHP schools have slightly higher absenteeism (selection effect)
+IPW-Weighted,0.7372995237399707,"After IPW adjustment, effect remains small"
+Stratified,0.6274151989140251,"Within similar schools, MSHP effect varies by stratum"

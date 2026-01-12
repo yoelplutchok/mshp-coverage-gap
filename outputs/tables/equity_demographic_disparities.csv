@@ -1,0 +1,8 @@
+metric,mshp_mean,non_mshp_mean,overall_mean,difference,mshp_n,non_mshp_n,t_statistic,p_value,cohens_d,significant,high_value_coverage_pct,low_value_coverage_pct
+Poverty Rate (%),87.5,87.8,87.7,-0.34,84,286,-0.283,0.7773,-0.038,False,20.0,25.4
+Black Students (%),27.5,24.9,25.5,2.55,84,286,1.532,0.1263,0.198,False,28.6,16.8
+Hispanic Students (%),63.0,65.3,64.8,-2.34,84,286,-1.246,0.2135,-0.16,False,18.4,27.0
+White Students (%),3.6,4.0,3.9,-0.39,84,286,-0.499,0.6179,-0.069,False,23.8,21.7
+Asian Students (%),4.3,4.0,4.0,0.28,84,286,0.343,0.7316,0.041,False,25.4,20.1
+English Language Learners (%),21.7,19.4,19.9,2.33,84,286,1.172,0.2421,0.13,False,20.0,25.4
+Students with Disabilities (%),24.0,22.5,22.8,1.45,84,286,1.85,0.0651,0.223,False,28.8,16.7

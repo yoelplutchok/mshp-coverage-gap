@@ -1,0 +1,5 @@
+model,description,mshp_coefficient,mshp_pvalue,r_squared,n
+model1_simple,Simple: Absenteeism ~ MSHP,0.5343462498085794,0.6962765761807064,0.0004567897552983924,336
+model2_asthma,With Asthma: Absenteeism ~ MSHP + Asthma Rate,0.6178207215716641,0.6520979425154634,0.00429292979842566,336
+model3_full,Full: Absenteeism ~ MSHP + Asthma + Enrollment + SVI + School Type,-0.3551193430990691,0.8139398915661952,0.05565547990634445,336
+model4_interaction,Interaction: Does MSHP effect vary by asthma burden?,6.876488550753345,,0.03799043863033735,336

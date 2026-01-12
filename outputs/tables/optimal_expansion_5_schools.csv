@@ -1,0 +1,16 @@
+selection_rank,dbn,school_name,school_type,address,uhf_name,enrollment,chronic_absenteeism_rate,asthma_ed_rate,pct_poverty,expansion_score,selection_method,method
+1,07X557,Mott Haven Community High School,High School,455 SOUTHERN BLVD,Hunts Point - Mott Haven,,,192.3,85.3,87.82,greedy,greedy
+2,75X754,J. M. Rapport School Career Development,Other,470 JACKSON AVENUE,Hunts Point - Mott Haven,,,192.3,92.1,85.8,greedy,greedy
+3,07X259,"H.E.R.O. High (Health, Education, and Research Occ",Other,455 SOUTHERN BLVD,Hunts Point - Mott Haven,750.0,54.0,192.3,88.5,83.58,greedy,greedy
+4,08X062,P.S. 062 Inocensio Casanova,Elementary,660 FOX STREET,Hunts Point - Mott Haven,486.0,42.0,192.3,96.0,83.57,greedy,greedy
+5,75X811,P.S. X811,Elementary,1434 LONGFELLOW AVENUE,Hunts Point - Mott Haven,,,192.3,87.6,83.34,greedy,greedy
+1,07X557,Mott Haven Community High School,High School,455 SOUTHERN BLVD,Hunts Point - Mott Haven,,,192.3,85.3,87.82,coverage_optimized,coverage_optimized
+2,08X048,P.S. 048 Joseph R. Drake,Elementary,1290 SPOFFORD AVENUE,Hunts Point - Mott Haven,505.0,51.7,192.3,88.5,81.16,coverage_optimized,coverage_optimized
+3,07X043,P.S. 043 Jonas Bronck,Elementary,165 BROWN PLACE,Hunts Point - Mott Haven,394.0,26.9,192.3,96.0,77.88,coverage_optimized,coverage_optimized
+4,08X062,P.S. 062 Inocensio Casanova,Elementary,660 FOX STREET,Hunts Point - Mott Haven,486.0,42.0,192.3,96.0,83.57,coverage_optimized,coverage_optimized
+5,75X811,P.S. X811,Elementary,1434 LONGFELLOW AVENUE,Hunts Point - Mott Haven,,,192.3,87.6,83.34,coverage_optimized,coverage_optimized
+1,07X557,Mott Haven Community High School,High School,455 SOUTHERN BLVD,Hunts Point - Mott Haven,,,192.3,85.3,87.82,equity_constrained,equity_constrained
+2,75X754,J. M. Rapport School Career Development,Other,470 JACKSON AVENUE,Hunts Point - Mott Haven,,,192.3,92.1,85.8,equity_constrained,equity_constrained
+3,07X259,"H.E.R.O. High (Health, Education, and Research Occ",Other,455 SOUTHERN BLVD,Hunts Point - Mott Haven,750.0,54.0,192.3,88.5,83.58,equity_constrained,equity_constrained
+4,08X062,P.S. 062 Inocensio Casanova,Elementary,660 FOX STREET,Hunts Point - Mott Haven,486.0,42.0,192.3,96.0,83.57,equity_constrained,equity_constrained
+5,75X811,P.S. X811,Elementary,1434 LONGFELLOW AVENUE,Hunts Point - Mott Haven,,,192.3,87.6,83.34,equity_constrained,equity_constrained

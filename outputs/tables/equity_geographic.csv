@@ -1,0 +1,8 @@
+uhf_name,total_schools,mshp_count,coverage_rate,asthma_ed_rate,asthma_hosp_rate,mean_absenteeism,mean_poverty,total_enrollment,obesity_rate,mental_health_rate,health_burden,coverage_pct,mean_poverty_pct,health_burden_percentile,equity_quadrant
+Hunts Point - Mott Haven,41,6,0.146,192.3,347.2,39.1,0.928,14093.0,34.5,168.4,100.0,14.6,92.8,100.0,"PRIORITY: High Burden, Low Coverage"
+High Bridge - Morrisania,67,15,0.224,178.0,383.2,40.3,0.926,22158.0,32.8,158.3,91.77,22.4,92.6,85.71428571428571,"Good Targeting: High Burden, High Coverage"
+Crotona - Tremont,82,13,0.159,171.9,389.7,38.7,0.924,28874.0,31.2,142.6,84.507,15.9,92.4,71.42857142857143,"PRIORITY: High Burden, Low Coverage"
+Fordham - Bronx Park,58,24,0.414,132.4,344.5,37.4,0.862,30108.0,28.4,115.3,66.676,41.4,86.2,57.14285714285714,"Over-served?: Low Burden, High Coverage"
+Pelham - Throgs Neck,64,16,0.25,98.3,294.5,40.1,0.822,31140.0,24.1,102.1,53.723,25.0,82.2,42.857142857142854,"Over-served?: Low Burden, High Coverage"
+Northeast Bronx,40,8,0.2,104.6,306.0,35.2,0.806,18949.0,22.3,98.4,50.815,20.0,80.6,28.57142857142857,"Over-served?: Low Burden, High Coverage"
+Kingsbridge - Riverdale,18,2,0.111,44.8,213.9,37.1,0.78,9478.0,18.5,85.2,35.158,11.1,78.0,14.285714285714285,"Less Urgent: Low Burden, Low Coverage"

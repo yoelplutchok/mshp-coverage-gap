@@ -1,0 +1,127 @@
+dbn,school_name,school_type,address,uhf_name,pct_poverty,chronic_absenteeism_rate,asthma_ed_rate,pct_swd,risk_factor_count,enrollment
+09X035,P.S. 035 Franz Siegel,Elementary,261 EAST 163 STREET,High Bridge - Morrisania,96.0,38.6,178.0,24.6,4,402.0
+08X062,P.S. 062 Inocensio Casanova,Elementary,660 FOX STREET,Hunts Point - Mott Haven,96.0,42.0,192.3,25.3,4,486.0
+09X063,P.S. 063 Author's Academy,Elementary,1260 FRANKLIN AVENUE,High Bridge - Morrisania,96.0,40.1,178.0,23.8,4,406.0
+07X157,P.S. 157 Grove Hill,Elementary,757 CAULDWELL AVENUE,High Bridge - Morrisania,96.0,35.3,178.0,24.3,4,414.0
+09X219,I.S. 219 New Venture School,Middle School,3630 THIRD AVENUE,High Bridge - Morrisania,96.0,37.2,178.0,39.7,4,274.0
+09X311,Lucero Elementary School,Elementary,1425 WALTON AVENUE,High Bridge - Morrisania,96.0,38.0,178.0,24.2,4,321.0
+09X323,Bronx Writing Academy,High School,270 EAST 167 STREET,High Bridge - Morrisania,96.0,35.4,178.0,24.0,4,212.0
+07X369,Young Leaders Elementary School,Elementary,468 EAST 140 STREET,Hunts Point - Mott Haven,96.0,36.1,192.3,29.3,4,238.0
+07X584,I.S. 584,Middle School,600 SAINT ANN'S AVENUE,Hunts Point - Mott Haven,96.0,36.7,192.3,31.5,4,207.0
+07X161,P.S. 161 Juan Ponce De Leon School,Elementary,628 TINTON AVENUE,Hunts Point - Mott Haven,94.8,41.9,192.3,28.1,4,332.0
+07X551,The Urban Assembly Bronx Academy of Letters,High School,339 MORRIS AVENUE,High Bridge - Morrisania,94.3,63.8,178.0,28.2,4,436.0
+09X454,Science and Technology Academy: A Mott Hall School,High School,250 EAST 164 STREET,High Bridge - Morrisania,94.0,36.3,178.0,24.7,4,372.0
+08X424,The Hunts Point School,Other,730 BRYANT AVENUE,Hunts Point - Mott Haven,93.9,36.8,192.3,35.4,4,182.0
+07X670,Health Opportunities High School,High School,350 GERARD AVENUE,High Bridge - Morrisania,93.6,45.5,178.0,27.5,4,253.0
+07X030,P.S. 030 Wilton,Elementary,510 EAST 141 STREET,Hunts Point - Mott Haven,93.5,38.3,192.3,25.7,4,389.0
+08X333,The Longwood Academy of Discovery,High School,888 REV J A POLITE AVE,Hunts Point - Mott Haven,92.9,49.4,192.3,27.1,4,496.0
+09X443,The Family School,Other,1116 SHERIDAN AVENUE,High Bridge - Morrisania,92.5,41.6,178.0,26.0,4,438.0
+09X449,Grant Avenue Elementary School,Elementary,250 EAST 164 STREET,High Bridge - Morrisania,92.5,40.4,178.0,27.3,4,384.0
+12X267,Bronx Latin,Other,800 HOME STREET,High Bridge - Morrisania,92.3,46.8,178.0,24.6,4,485.0
+09X132,P.S. 132 Garret A. Morgan,Elementary,1245 WASHINGTON AVENUE,High Bridge - Morrisania,92.0,58.0,178.0,23.9,4,400.0
+12X479,Bronx Career and College Preparatory High School,High School,800 HOME STREET,High Bridge - Morrisania,92.0,69.8,178.0,24.7,4,162.0
+08X530,Longwood Preparatory Academy,High School,965 LONGWOOD AVENUE,Hunts Point - Mott Haven,92.0,52.5,192.3,29.6,4,381.0
+12X248,"Metropolitan High School, The",High School,1180 REV. J.A. POLITE AVE.,Hunts Point - Mott Haven,91.8,62.0,192.3,33.6,4,205.0
+08X301,M.S. 301 Paul L. Dunbar,Middle School,890 CAULDWELL AVENUE,High Bridge - Morrisania,91.6,43.9,178.0,34.1,4,173.0
+09X294,The Walton Avenue School,Other,1425 WALTON AVENUE,High Bridge - Morrisania,91.3,38.3,178.0,25.7,4,324.0
+09X128,Mott Hall III,Other,580 CROTONA PARK SOUTH,High Bridge - Morrisania,91.1,48.0,178.0,26.8,4,294.0
+07X522,Bronx Design and Construction Academy,High School,333 EAST 151 STREET,High Bridge - Morrisania,91.1,39.2,178.0,42.6,4,240.0
+07X427,Community School for Social Justice,Other,350 GERARD AVENUE,High Bridge - Morrisania,90.7,59.8,178.0,28.8,4,209.0
+07X296,South Bronx Academy for Applied Media,High School,778 FOREST AVENUE,High Bridge - Morrisania,90.0,41.5,178.0,38.6,4,183.0
+09X260,Bronx Center for Science and Mathematics,Other,1363 FULTON AVENUE,High Bridge - Morrisania,89.8,36.3,178.0,23.8,4,397.0
+07X600,Alfred E. Smith Career and Technical Education Hig,Other,333 EAST 151 STREET,High Bridge - Morrisania,89.4,56.5,178.0,32.1,4,418.0
+08X048,P.S. 048 Joseph R. Drake,Elementary,1290 SPOFFORD AVENUE,Hunts Point - Mott Haven,88.5,51.7,192.3,23.2,4,505.0
+07X259,"H.E.R.O. High (Health, Education, and Research Occ",Other,455 SOUTHERN BLVD,Hunts Point - Mott Haven,88.5,54.0,192.3,23.1,4,750.0
+08X269,Bronx Studio School for Writers and Artists,Other,928 SIMPSON STREET,Hunts Point - Mott Haven,88.2,48.9,192.3,23.7,4,615.0
+09X250,Eximius College Preparatory Academy: A College Boa,High School,1363 FULTON AVENUE,High Bridge - Morrisania,87.0,43.0,178.0,25.5,4,377.0
+08X075,P.S. 75 School of Research and Discovery,Elementary,984 FAILE STREET,Hunts Point - Mott Haven,86.1,39.1,192.3,23.1,4,547.0
+07X001,P.S. 001 Courtlandt School,Elementary,335 EAST 152 STREET,High Bridge - Morrisania,96.0,37.4,178.0,22.1,3,447.0
+07X005,P.S. 5 Port Morris,Elementary,564 JACKSON AVENUE,Hunts Point - Mott Haven,96.0,24.0,192.3,27.0,3,717.0
+09X022,J.H.S. 022 Jordan L. Mott,Middle School,270 EAST 167 STREET,High Bridge - Morrisania,96.0,41.9,178.0,22.3,3,303.0
+07X025,P.S. 025 Bilingual School,Elementary,811 EAST 149 STREET,Hunts Point - Mott Haven,96.0,25.1,192.3,26.1,3,434.0
+10X032,P.S. 032 Belmont,Elementary,690 EAST 183 STREET,Crotona - Tremont,96.0,48.3,171.9,23.4,3,598.0
+09X042,P.S. 042 Claremont,Elementary,1537 WASHINGTON AVENUE,Crotona - Tremont,96.0,51.4,171.9,34.0,3,397.0
+07X049,P.S. 049 Willis Avenue,Elementary,383 EAST 139 STREET,Hunts Point - Mott Haven,96.0,34.5,192.3,23.9,3,531.0
+10X059,P.S. 059 The Community School of Technology,Elementary,2185 BATHGATE AVENUE,Crotona - Tremont,96.0,43.9,171.9,26.3,3,417.0
+09X073,P.S. 073 Bronx,Elementary,1020 ANDERSON AVENUE,High Bridge - Morrisania,96.0,53.5,178.0,18.5,3,318.0
+10X091,P.S. 091 Bronx,Elementary,2200 AQUEDUCT AVENUE,Crotona - Tremont,96.0,44.0,171.9,25.7,3,398.0
+08X107,P.S. 107,Elementary,1695 SEWARD AVENUE,Pelham - Throgs Neck,96.0,46.8,98.3,26.3,3,451.0
+09X110,P.S. 110 Theodore Schoenfeld,Elementary,580 CROTONA PARK SOUTH,High Bridge - Morrisania,96.0,47.6,178.0,20.7,3,332.0
+09X126,P.S. 126 Dr Marjorie H Dunbar,Elementary,175 WEST 166 STREET,High Bridge - Morrisania,96.0,52.4,178.0,14.9,3,582.0
+12X134,P.S. 134 George F. Bristow,Elementary,1330 BRISTOW STREET,Hunts Point - Mott Haven,96.0,42.5,192.3,20.1,3,506.0
+08X146,P.S. 146 Edward Collins,Elementary,968 CAULDWELL AVENUE,High Bridge - Morrisania,96.0,40.8,178.0,20.3,3,321.0
+09X163,P.S. 163 Arthur A. Schomburg,Elementary,2075 WEBSTER AVENUE,Crotona - Tremont,96.0,35.6,171.9,25.9,3,343.0
+07X224,P.S./I.S. 224,Middle School,345 BROOK AVENUE,Hunts Point - Mott Haven,96.0,34.1,192.3,33.6,3,185.0
+09X236,P.S. 236 Langston Hughes,Elementary,1871 WALTON AVENUE,Crotona - Tremont,96.0,37.3,171.9,27.2,3,343.0
+10X246,P.S. 246 Poe Center,Elementary,2641 GRAND CONCOURSE,Fordham - Bronx Park,96.0,47.5,132.4,24.1,3,497.0
+12X273,Frederick Douglass Academy V. Middle School,Middle School,2111 CROTONA AVENUE,Crotona - Tremont,96.0,46.6,171.9,28.7,3,174.0
+07X277,P.S. 277,Elementary,519 ST ANNS AVENUE,Hunts Point - Mott Haven,96.0,37.6,192.3,17.3,3,388.0
+12X318,"I.S. X318 Math, Science & Technology Through Arts",Middle School,1919 PROSPECT AVENUE,Crotona - Tremont,96.0,45.5,171.9,29.6,3,301.0
+07X334,International Community High School,High School,345 BROOK AVENUE,Hunts Point - Mott Haven,96.0,44.9,192.3,9.3,3,414.0
+09X361,The Highbridge Green School,Other,200 West 167th Street,High Bridge - Morrisania,96.0,27.4,178.0,23.6,3,416.0
+09X404,School for Excellence,Other,1110 BOSTON ROAD,High Bridge - Morrisania,96.0,,178.0,26.1,3,
+09X457,Sheridan Academy for Young Leaders,High School,1116 SHERIDAN AVENUE,High Bridge - Morrisania,96.0,40.5,178.0,22.9,3,447.0
+07X381,Bronx Haven High School,High School,333 EAST 151 STREET,High Bridge - Morrisania,95.0,,178.0,38.3,3,
+07X029,P.S./M.S. 029 Melrose School,Middle School,758 COURTLANDT AVENUE,High Bridge - Morrisania,94.9,33.0,178.0,23.6,3,684.0
+08X140,P.S. X140 The Eagle School,Elementary,916 EAGLE AVENUE,High Bridge - Morrisania,94.9,53.8,178.0,20.3,3,390.0
+09X011,P.S. 011 Highbridge,Elementary,1257 OGDEN AVENUE,High Bridge - Morrisania,94.8,37.9,178.0,20.2,3,438.0
+10X020,"PS/MS 20 P.O.George J. Werdann, III",Other,3050 WEBSTER AVENUE,Fordham - Bronx Park,94.8,43.8,132.4,24.2,3,863.0
+09X117,I.S. 117 Joseph H. Wade,Middle School,1865 MORRIS AVENUE,Crotona - Tremont,94.8,38.1,171.9,26.6,3,365.0
+12X300,The School of Science and Applied Learning,Other,2050 PROSPECT AVENUE,Crotona - Tremont,94.7,48.2,171.9,27.5,3,423.0
+08X302,M.S. 302 Luisa Dessus Cruz,Middle School,681 KELLY STREET,Hunts Point - Mott Haven,94.6,32.6,192.3,36.2,3,353.0
+09X241,Urban Assembly School for Applied Math and Science,Other,1595 BATHGATE AVENUE,Crotona - Tremont,94.5,57.7,171.9,28.2,3,541.0
+10X003,P.S. 3 Raul Julia Micro Society,Elementary,2100 LAFONTAINE AVENUE,Crotona - Tremont,94.0,44.3,171.9,27.2,3,325.0
+10X023,P.S. 023 The New Children's School,Elementary,2151 WASHINGTON AVENUE,Crotona - Tremont,93.8,41.9,171.9,28.8,3,387.0
+12X150,P.S. 150 Charles James Fox,Elementary,920 EAST 167 STREET,Hunts Point - Mott Haven,93.7,46.6,192.3,21.4,3,556.0
+12X316,Kappa III,Other,2055 MAPES AVENUE,Crotona - Tremont,93.7,36.8,171.9,27.6,3,272.0
+07X065,P.S. 065 Mother Hale Academy,Elementary,677 EAST 141 STREET,Hunts Point - Mott Haven,93.6,32.9,192.3,24.1,3,246.0
+09X114,P.S. X114 - Luis Llorens Torres Schools,Elementary,1155 CROMWELL AVENUE,High Bridge - Morrisania,93.6,41.1,178.0,22.6,3,540.0
+09X215,Kappa,Other,3630 THIRD AVENUE,High Bridge - Morrisania,93.3,23.6,178.0,28.0,3,161.0
+09X004,P.S./M.S. 004 Crotona Park West,Middle School,1701 FULTON AVENUE,Crotona - Tremont,93.2,45.8,171.9,27.8,3,251.0
+07X179,P.S. 179,Elementary,468 EAST 140 STREET,Hunts Point - Mott Haven,93.2,37.8,192.3,20.1,3,230.0
+12X271,East Bronx Academy for the Future,High School,1716 SOUTHERN BOULEVARD,Crotona - Tremont,93.1,43.6,171.9,30.7,3,688.0
+07X298,Academy of Public Relations,High School,778 FOREST AVENUE,High Bridge - Morrisania,93.1,31.3,178.0,37.7,3,147.0
+07X343,Academy of Applied Mathematics and Technology,High School,345 BROOK AVENUE,Hunts Point - Mott Haven,93.1,24.6,192.3,26.7,3,285.0
+09X525,Bronx Leadership Academy High School,High School,1710 WEBSTER AVENUE,Crotona - Tremont,93.1,39.4,171.9,32.9,3,393.0
+07X221,South Bronx Preparatory: A College Board School,High School,360 EAST 145 STREET,Hunts Point - Mott Haven,93.0,26.5,192.3,24.4,3,630.0
+12X383,Emolior Academy,High School,1970 WEST FARMS ROAD,Crotona - Tremont,93.0,37.7,171.9,24.1,3,406.0
+11X103,P.S. 103 Hector Fontanez,Elementary,4125 CARPENTER AVENUE,Northeast Bronx,92.9,43.7,104.6,24.2,3,881.0
+12X521,The Metropolitan Soundview High School,High School,1300 BOYNTON AVENUE,Pelham - Throgs Neck,92.5,38.7,98.3,28.0,3,403.0
+10X205,P.S. 205 Fiorello LaGuardia,Elementary,2475 SOUTHERN BOULEVARD,Fordham - Bronx Park,92.4,41.4,132.4,23.4,3,594.0
+09X505,"Bronx School for Law, Government and Justice",Other,244 EAST 163 STREET,High Bridge - Morrisania,92.0,32.4,178.0,23.9,3,714.0
+10X280,P.S./M.S. 280 Mosholu Parkway,Middle School,3202 STEUBEN AVENUE,Fordham - Bronx Park,91.8,42.9,132.4,25.8,3,727.0
+10X363,Academy For Personal Leadership And Excellence,High School,120 EAST 184 STREET,Fordham - Bronx Park,91.7,43.4,132.4,24.4,3,857.0
+12X314,Fairmont Neighborhood School,Other,1550 VYSE AVENUE,Crotona - Tremont,91.5,41.2,171.9,25.4,3,284.0
+09X058,P.S. 058,Elementary,459 EAST 176 STREET,Crotona - Tremont,91.3,43.6,171.9,23.1,3,319.0
+09X053,P.S. 053 Basheer Quisim,Elementary,360 EAST 168 STREET,High Bridge - Morrisania,91.1,40.1,178.0,12.7,3,691.0
+09X252,Mott Hall Bronx High School,High School,1595 BATHGATE AVENUE,Crotona - Tremont,90.9,49.0,171.9,24.8,3,335.0
+10X340,P.S. 340,Elementary,25 WEST 195 STREET,Fordham - Bronx Park,90.6,36.3,132.4,27.4,3,604.0
+09X517,Frederick Douglass Academy III Secondary School,High School,3630 THIRD AVENUE,High Bridge - Morrisania,90.6,30.5,178.0,31.0,3,262.0
+08X123,J.H.S. 123 James M. Kieran,Middle School,1025 MORRISON AVENUE,Pelham - Throgs Neck,90.3,41.1,98.3,27.5,3,511.0
+09X263,Validus Preparatory Academy,High School,1595 BATHGATE AVENUE,Crotona - Tremont,90.2,56.5,171.9,25.6,3,308.0
+09X324,Bronx Early College Academy for Teaching & Learnin,High School,250 EAST 164 STREET,High Bridge - Morrisania,90.1,39.4,178.0,22.8,3,376.0
+08X130,P.S. 130 Abram Stevens Hewitt,Elementary,750 PROSPECT AVENUE,Hunts Point - Mott Haven,90.0,43.4,192.3,19.7,3,332.0
+10X308,Bronx Dance Academy School,High School,3617 BAINBRIDGE AVENUE,Fordham - Bronx Park,90.0,42.2,132.4,25.9,3,277.0
+10X080,J.H.S. 080 The Mosholu Parkway,Middle School,149 EAST MOSHOLU PKWY N,Fordham - Bronx Park,89.5,36.4,132.4,23.5,3,621.0
+12X684,Wings Academy,High School,1122 EAST 180 STREET,Crotona - Tremont,89.4,58.6,171.9,29.4,3,261.0
+10X546,Bronx Theatre High School,High School,99 TERRACE VIEW AVENUE,Kingsbridge - Riverdale,88.9,68.7,44.8,28.6,3,249.0
+10X213,Bronx Engineering and Technology Academy,High School,99 TERRACE VIEW AVENUE,Kingsbridge - Riverdale,88.5,56.4,44.8,30.4,3,344.0
+12X286,Fannie Lou Hamer Middle School,Middle School,1001 JENNINGS STREET,Crotona - Tremont,88.4,41.7,171.9,32.2,3,271.0
+08X562,Blueprint Middle School,Middle School,1111 PUGSLEY AVENUE,Pelham - Throgs Neck,88.1,41.7,98.3,23.1,3,597.0
+10X565,High School for Energy and Technology,High School,2474 CROTONA AVENUE,Fordham - Bronx Park,87.9,43.4,132.4,29.3,3,348.0
+12X682,Fannie Lou Hamer Freedom High School,High School,1021 JENNINGS STREET,Crotona - Tremont,87.9,65.1,171.9,28.0,3,441.0
+07X379,Jill Chaifetz Transfer High School,High School,778 FOREST AVENUE,High Bridge - Morrisania,87.4,,178.0,34.2,3,
+12X478,The Cinema School,Other,1551 EAST 172ND STREET,Pelham - Throgs Neck,87.4,51.1,98.3,24.7,3,319.0
+10X037,P.S. X037 - Multiple Intelligence School,Elementary,360 WEST 230 STREET,Kingsbridge - Riverdale,87.1,53.8,44.8,27.6,3,485.0
+08X131,J.H.S. 131 Albert Einstein,Middle School,885 BOLTON AVENUE,Pelham - Throgs Neck,86.6,44.0,98.3,26.2,3,343.0
+08X100,P.S. 100 Isaac Clason,Elementary,800 TAYLOR AVENUE,Pelham - Throgs Neck,86.3,43.4,98.3,25.4,3,472.0
+07X500,Hostos-Lincoln Academy of Science,High School,600 SAINT ANN'S AVENUE,Hunts Point - Mott Haven,85.5,52.6,192.3,22.5,3,468.0
+07X557,Mott Haven Community High School,High School,455 SOUTHERN BLVD,Hunts Point - Mott Haven,85.3,,192.3,39.3,3,
+10X225,Theatre Arts Production Company School,Other,2225 WEBSTER AVENUE,Crotona - Tremont,84.8,51.5,171.9,25.0,3,433.0
+11X418,Bronx High School for the Visual Arts,High School,2040 ANTIN PL,Pelham - Throgs Neck,84.4,37.7,98.3,26.0,3,430.0
+11X566,Pelham Gardens Middle School,Middle School,2545 GUNTHER AVENUE,Northeast Bronx,83.9,46.1,104.6,27.3,3,323.0
+08X448,Soundview Academy for Culture and Scholarship,High School,885 BOLTON AVENUE,Pelham - Throgs Neck,83.0,56.5,98.3,30.0,3,255.0
+08X072,P.S. 072 Dr. William Dorney,Elementary,2951 DEWEY AVENUE,Pelham - Throgs Neck,82.8,47.1,98.3,25.9,3,647.0
+10X056,P.S. 056 Norwood Heights,Elementary,341 EAST 207 STREET,Fordham - Bronx Park,82.4,39.4,132.4,24.5,3,662.0
+11X462,Cornerstone Academy for Social Action Middle Schoo,Middle School,3441 STEENWICK AVENUE,Northeast Bronx,81.0,43.6,104.6,27.5,3,179.0
+10X264,Bronx Academy for Software Engineering (BASE),High School,2474 CROTONA AVENUE,Fordham - Bronx Park,80.4,52.6,132.4,28.1,3,390.0
