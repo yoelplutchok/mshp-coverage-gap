@@ -60,7 +60,19 @@ st.markdown("""
         border-radius: 12px;
         margin-bottom: 2rem;
         box-shadow: 0 4px 12px rgba(0, 84, 163, 0.15);
-        color: #ffffff;
+    }
+    
+    .neighborhood-header h2 {
+        color: #ffffff !important;
+        margin: 0;
+        font-weight: 700;
+    }
+    
+    .neighborhood-header p {
+        color: #e3f2fd !important;
+        margin: 0.5rem 0 0 0;
+        font-weight: 500;
+        opacity: 0.9;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -85,8 +97,8 @@ neigh_schools = df[df['uhf_name'] == selected_neighborhood]
 
 st.markdown(f"""
 <div class="neighborhood-header">
-    <h2 style="color: #ffffff !important; margin: 0;">{selected_neighborhood}</h2>
-    <p style="color: #e3f2fd !important; margin: 0.5rem 0 0 0; font-weight: 500; opacity: 0.9;">
+    <h2>{selected_neighborhood}</h2>
+    <p>
         {int(neigh_data['total_schools'])} schools | {int(neigh_data['total_students']):,} students
     </p>
 </div>
