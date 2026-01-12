@@ -17,20 +17,27 @@ st.markdown("""
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
     .stApp { 
         font-family: 'Inter', system-ui, sans-serif; 
-        background-color: #1a1a2e;
+        background-color: #ffffff;
     }
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     
-    /* Ensure readable text */
-    .stApp, .stApp p, .stApp span, .stApp div, .stApp label, .stApp h1, .stApp h2, .stApp h3 { 
-        color: #ffffff !important; 
+    /* Ensure readable text in light theme */
+    .stApp, .stApp p, .stApp span, .stApp div, .stApp label { 
+        color: #333333 !important; 
     }
-    [data-testid="stSidebar"] { background: #16162a !important; }
-    [data-testid="stSidebar"] * { color: #ffffff !important; }
-    [data-testid="stSidebar"] a { color: #90cdf4 !important; }
+    .stApp h1, .stApp h2, .stApp h3 { 
+        color: #1a1a2e !important; 
+    }
     
-    /* Make captions readable - aggressive targeting */
+    [data-testid="stSidebar"] { 
+        background-color: #f8f9fa !important; 
+        border-right: 1px solid #e9ecef;
+    }
+    [data-testid="stSidebar"] * { color: #333333 !important; }
+    [data-testid="stSidebar"] a { color: #0054a3 !important; }
+    
+    /* Make captions readable */
     .stApp [data-testid="stCaptionContainer"],
     .stApp [data-testid="stCaptionContainer"] p,
     .stApp [data-testid="stCaptionContainer"] span,
@@ -43,25 +50,26 @@ st.markdown("""
     .st-emotion-cache-eczf16,
     .st-emotion-cache-1gulkj5,
     .st-emotion-cache-6q9sum,
-    .st-emotion-cache-1wivap2 { color: #e2e8f0 !important; }
+    .st-emotion-cache-1wivap2 { color: #666666 !important; }
     
     .school-card {
-        background: #252545;
+        background: #ffffff;
         padding: 1.5rem;
-        border-radius: 4px;
-        border: 1px solid #4a5568;
+        border-radius: 8px;
+        border: 1px solid #e9ecef;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         margin-bottom: 1rem;
     }
     
     .school-name {
-        font-size: 1.2rem;
-        font-weight: 600;
-        color: #ffffff;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #1a1a2e !important;
         margin-bottom: 0.5rem;
     }
     
     .school-dbn {
-        color: #e2e8f0;
+        color: #666666 !important;
         font-size: 0.9rem;
     }
     
@@ -70,11 +78,11 @@ st.markdown("""
         padding: 4px 12px;
         border-radius: 4px;
         font-size: 0.85rem;
-        font-weight: 500;
+        font-weight: 600;
     }
     
-    .status-covered { background: rgba(72, 187, 120, 0.2); color: #48bb78; }
-    .status-not-covered { background: rgba(252, 129, 129, 0.2); color: #fc8181; }
+    .status-covered { background: rgba(39, 174, 96, 0.1); color: #27ae60 !important; }
+    .status-not-covered { background: rgba(231, 76, 60, 0.1); color: #e74c3c !important; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -217,16 +225,16 @@ else:
                 </div>
                 <div style="margin-top: 1rem; display: flex; gap: 2rem;">
                     <div>
-                        <div style="color: #e2e8f0; font-size: 0.8rem;">Enrollment</div>
-                        <div style="color: #ffffff; font-size: 1.1rem; font-weight: 600;">{int(row['enrollment']):,}</div>
+                        <div style="color: #666666; font-size: 0.8rem;">Enrollment</div>
+                        <div style="color: #1a1a2e; font-size: 1.1rem; font-weight: 700;">{int(row['enrollment']):,}</div>
                     </div>
                     <div>
-                        <div style="color: #e2e8f0; font-size: 0.8rem;">Chronic Absenteeism</div>
-                        <div style="color: #ffffff; font-size: 1.1rem; font-weight: 600;">{row['chronic_absenteeism_rate']:.1f}%</div>
+                        <div style="color: #666666; font-size: 0.8rem;">Chronic Absenteeism</div>
+                        <div style="color: #1a1a2e; font-size: 1.1rem; font-weight: 700;">{row['chronic_absenteeism_rate']:.1f}%</div>
                     </div>
                     <div>
-                        <div style="color: #e2e8f0; font-size: 0.8rem;">Neighborhood</div>
-                        <div style="color: #ffffff; font-size: 1.1rem; font-weight: 600;">{row['uhf_name'].split(' - ')[0]}</div>
+                        <div style="color: #666666; font-size: 0.8rem;">Neighborhood</div>
+                        <div style="color: #1a1a2e; font-size: 1.1rem; font-weight: 700;">{row['uhf_name'].split(' - ')[0]}</div>
                     </div>
                 </div>
             </div>
@@ -234,3 +242,14 @@ else:
     
     if len(filtered_df) > 50:
         st.info(f"Showing first 50 of {len(filtered_df)} schools. Use table view for full list.")
+
+st.markdown("---")
+st.markdown("""
+<div class="author-footer">
+    <div class="author-name">Yoel Y. Plutchok</div>
+    <a href="https://github.com/yoelplutchok/nyc-school-environmental-health" target="_blank">View Source Code on GitHub</a>
+    <div style="color: #666666; font-size: 0.8rem; margin-top: 1rem;">
+        Data sources: NYC DOE, NYC DOHMH, Montefiore Einstein
+    </div>
+</div>
+""", unsafe_allow_html=True)

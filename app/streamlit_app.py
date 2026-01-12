@@ -16,170 +16,145 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# Custom CSS - professional styling with readable text everywhere
+# Custom CSS - light theme matching localhost:8502
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
     
     .stApp {
         font-family: 'Inter', system-ui, sans-serif;
-        background-color: #1a1a2e;
+        background-color: #ffffff;
     }
     
     .main-header {
-        background: #252545;
+        background: #f8f9fa;
         padding: 1.5rem 2rem;
-        border-radius: 4px;
+        border-radius: 8px;
         margin-bottom: 1.5rem;
-        border-bottom: 3px solid #4a5568;
+        border: 1px solid #e9ecef;
     }
     
     .main-header h1 {
-        color: #ffffff;
-        font-size: 1.75rem;
-        font-weight: 600;
+        color: #1a1a2e;
+        font-size: 2rem;
+        font-weight: 700;
         margin: 0;
     }
     
     .main-header p {
-        color: #e2e8f0;
-        font-size: 1rem;
+        color: #444444;
+        font-size: 1.1rem;
         margin: 0.5rem 0 0 0;
     }
     
     .metric-card {
-        background: #252545;
+        background: #ffffff;
         padding: 1.25rem;
-        border-radius: 4px;
-        border: 1px solid #4a5568;
+        border-radius: 8px;
+        border: 1px solid #e9ecef;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         text-align: center;
     }
     
     .metric-value {
-        font-size: 2rem;
-        font-weight: 600;
-        color: #ffffff;
+        font-size: 2.25rem;
+        font-weight: 700;
+        color: #1a1a2e;
         line-height: 1;
     }
     
-    .metric-value.green { color: #48bb78 !important; }
-    .metric-value.red { color: #fc8181 !important; }
-    .metric-value.blue { color: #63b3ed !important; }
-    .metric-value.amber { color: #ecc94b !important; }
+    .metric-value.green { color: #27ae60 !important; }
+    .metric-value.red { color: #e74c3c !important; }
+    .metric-value.blue { color: #0054a3 !important; }
+    .metric-value.amber { color: #f39c12 !important; }
     
     .metric-label {
-        color: #e2e8f0;
-        font-size: 0.875rem;
+        color: #666666;
+        font-size: 0.9rem;
         margin-top: 0.5rem;
-        font-weight: 500;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
     }
     
     .finding-box {
-        background: #252545;
-        border-left: 3px solid #4299e1;
-        padding: 1rem 1.25rem;
-        border-radius: 0 4px 4px 0;
-        margin: 1rem 0;
-        color: #ffffff;
+        background: #f8f9fa;
+        border-left: 4px solid #0054a3;
+        padding: 1.25rem;
+        border-radius: 0 8px 8px 0;
+        margin: 1.5rem 0;
+        color: #333333;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
     }
     
     .finding-box.priority {
-        border-left-color: #fc8181;
+        border-left-color: #e74c3c;
     }
     
     .finding-box.success {
-        border-left-color: #48bb78;
+        border-left-color: #27ae60;
     }
     
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     
-    /* Force all text to be readable */
-    .stApp, .stApp p, .stApp span, .stApp div, .stApp label, .stApp h1, .stApp h2, .stApp h3 {
-        color: #ffffff !important;
+    /* Force all text to be readable in light theme */
+    .stApp, .stApp p, .stApp span, .stApp div, .stApp label {
+        color: #333333;
     }
     
-    /* Make captions readable - aggressive targeting */
-    .stApp [data-testid="stCaptionContainer"],
-    .stApp [data-testid="stCaptionContainer"] p,
-    .stApp [data-testid="stCaptionContainer"] span,
-    .stApp .stCaption,
-    .stApp small,
-    [data-testid="stCaptionContainer"] *,
-    .stCaption,
-    .stCaption p,
-    p[data-testid="stCaptionContainer"],
-    div[data-testid="stCaptionContainer"] p {
-        color: #e2e8f0 !important;
-    }
-    
-    /* Target caption text that follows page links */
-    [data-testid="stPageLink"] + p,
-    [data-testid="stPageLink"] ~ p[data-testid="stCaptionContainer"],
-    .element-container p.st-emotion-cache-nahz7x,
-    .stMarkdown p {
-        color: #ffffff !important;
-    }
-    
-    /* Override any gray text colors from Streamlit defaults */
-    .st-emotion-cache-nahz7x,
-    .st-emotion-cache-eczf16,
-    .st-emotion-cache-1gulkj5,
-    .st-emotion-cache-6q9sum,
-    .st-emotion-cache-1wivap2 {
-        color: #e2e8f0 !important;
+    .stApp h1, .stApp h2, .stApp h3 {
+        color: #1a1a2e !important;
     }
     
     /* Sidebar styling */
     [data-testid="stSidebar"] {
-        background: #16162a !important;
+        background-color: #f8f9fa !important;
+        border-right: 1px solid #e9ecef;
     }
     
     [data-testid="stSidebar"] * {
-        color: #ffffff !important;
-    }
-    
-    [data-testid="stSidebar"] p,
-    [data-testid="stSidebar"] span,
-    [data-testid="stSidebar"] div,
-    [data-testid="stSidebar"] label {
-        color: #ffffff !important;
+        color: #333333 !important;
     }
     
     [data-testid="stSidebar"] a {
-        color: #90cdf4 !important;
+        color: #0054a3 !important;
     }
     
     /* Page links in sidebar */
     [data-testid="stSidebar"] [data-testid="stPageLink"] span {
-        color: #ffffff !important;
+        color: #333333 !important;
     }
     
-    /* Fix any blue text on blue background */
-    .st-emotion-cache-1v0mbdj, 
-    .st-emotion-cache-16idsys,
-    .st-emotion-cache-ue6h4q {
-        color: #ffffff !important;
+    /* Metric styling overrides */
+    [data-testid="stMetricValue"] {
+        color: #1a1a2e !important;
+        font-weight: 700 !important;
+    }
+    
+    [data-testid="stMetricLabel"] {
+        color: #666666 !important;
     }
     
     /* Author footer */
     .author-footer {
         text-align: center;
-        padding: 2rem 0 1rem 0;
-        border-top: 1px solid #4a5568;
-        margin-top: 2rem;
+        padding: 2.5rem 0 1.5rem 0;
+        border-top: 1px solid #e9ecef;
+        margin-top: 3rem;
     }
     
     .author-footer .author-name {
-        font-weight: 600;
-        color: #ffffff;
-        font-size: 1rem;
+        font-weight: 700;
+        color: #1a1a2e;
+        font-size: 1.1rem;
         margin-bottom: 0.5rem;
     }
     
     .author-footer a {
-        color: #90cdf4;
+        color: #0054a3;
         text-decoration: none;
+        font-weight: 500;
     }
     
     .author-footer a:hover {
@@ -187,7 +162,7 @@ st.markdown("""
     }
     
     .author-footer div {
-        color: #e2e8f0 !important;
+        color: #666666 !important;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -358,8 +333,8 @@ st.markdown("""
 st.markdown("""
 <div class="author-footer">
     <div class="author-name">Yoel Y. Plutchok</div>
-    <a href="https://github.com/yoelplutchok/mshp-coverage-gap" target="_blank">View Source Code on GitHub</a>
-    <div style="color: #e2e8f0; font-size: 0.8rem; margin-top: 1rem;">
+    <a href="https://github.com/yoelplutchok/nyc-school-environmental-health" target="_blank">View Source Code on GitHub</a>
+    <div style="color: #666666; font-size: 0.8rem; margin-top: 1rem;">
         Data sources: NYC DOE, NYC DOHMH, Montefiore Einstein
     </div>
 </div>

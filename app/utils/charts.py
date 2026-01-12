@@ -8,21 +8,21 @@ from plotly.subplots import make_subplots
 import pandas as pd
 import numpy as np
 
-# Color palette - professional, muted dark theme
+# Color palette - light theme matching localhost:8502
 COLORS = {
-    'mshp': '#48bb78',        # Muted green
-    'non_mshp': '#fc8181',    # Muted red
-    'accent': '#ecc94b',      # Muted amber
-    'primary': '#63b3ed',     # Muted blue
-    'secondary': '#b794f4',   # Muted purple
-    'background': '#1a1a2e',  # Dark background
-    'surface': '#1e1e2f',     # Dark surface
-    'text': '#ffffff',        # High-contrast white text
-    'muted': '#e2e8f0',       # Readable muted text
-    'tier1': '#ff4b4b',       # Brighter priority red
-    'tier2': '#ff8c00',       # Brighter priority orange
-    'tier3': '#ffd700',       # Brighter priority amber
-    'tier4': '#94a3b8',       # Readable gray
+    'mshp': '#27ae60',        # Success green
+    'non_mshp': '#e74c3c',    # Danger red
+    'accent': '#f39c12',      # Warning orange
+    'primary': '#0054a3',     # Link blue from 8502
+    'secondary': '#8e44ad',   # Purple
+    'background': '#ffffff',  # White background
+    'surface': '#f8f9fa',     # Light gray surface
+    'text': '#1a1a2e',        # Dark navy text from 8502
+    'muted': '#444444',       # Muted gray text
+    'tier1': '#c0392b',       # Priority red
+    'tier2': '#d35400',       # Priority orange
+    'tier3': '#f1c40f',       # Priority yellow
+    'tier4': '#7f8c8d',       # Neutral gray
 }
 
 TIER_COLORS = {
@@ -34,24 +34,28 @@ TIER_COLORS = {
 
 
 def apply_dark_theme(fig):
-    """Apply consistent dark theme to a Plotly figure."""
+    """Apply consistent light theme to a Plotly figure."""
     fig.update_layout(
         paper_bgcolor='rgba(0,0,0,0)',
         plot_bgcolor='rgba(0,0,0,0)',
         font=dict(color=COLORS['text'], family='Inter, system-ui, sans-serif'),
         title_font=dict(size=18, color=COLORS['text']),
         legend=dict(
-            bgcolor='rgba(0,0,0,0)',
-            bordercolor='rgba(0,0,0,0)',
+            bgcolor='rgba(255,255,255,0.8)',
+            bordercolor='rgba(0,0,0,0.1)',
             font=dict(color=COLORS['muted'])
         ),
         xaxis=dict(
-            gridcolor='rgba(255, 255, 255, 0.1)',
-            zerolinecolor='rgba(255, 255, 255, 0.2)',
+            gridcolor='rgba(0, 0, 0, 0.05)',
+            zerolinecolor='rgba(0, 0, 0, 0.1)',
+            tickfont=dict(color=COLORS['muted']),
+            titlefont=dict(color=COLORS['text'])
         ),
         yaxis=dict(
-            gridcolor='rgba(255, 255, 255, 0.1)',
-            zerolinecolor='rgba(255, 255, 255, 0.2)',
+            gridcolor='rgba(0, 0, 0, 0.05)',
+            zerolinecolor='rgba(0, 0, 0, 0.1)',
+            tickfont=dict(color=COLORS['muted']),
+            titlefont=dict(color=COLORS['text'])
         ),
         margin=dict(l=40, r=40, t=60, b=40),
     )

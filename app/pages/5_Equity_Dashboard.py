@@ -19,20 +19,27 @@ st.markdown("""
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
     .stApp { 
         font-family: 'Inter', system-ui, sans-serif; 
-        background-color: #1a1a2e;
+        background-color: #ffffff;
     }
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     
-    /* Ensure readable text */
-    .stApp, .stApp p, .stApp span, .stApp div, .stApp label, .stApp h1, .stApp h2, .stApp h3 { 
-        color: #ffffff !important; 
+    /* Ensure readable text in light theme */
+    .stApp, .stApp p, .stApp span, .stApp div, .stApp label { 
+        color: #333333 !important; 
     }
-    [data-testid="stSidebar"] { background: #16162a !important; }
-    [data-testid="stSidebar"] * { color: #ffffff !important; }
-    [data-testid="stSidebar"] a { color: #90cdf4 !important; }
+    .stApp h1, .stApp h2, .stApp h3 { 
+        color: #1a1a2e !important; 
+    }
     
-    /* Make captions readable - aggressive targeting */
+    [data-testid="stSidebar"] { 
+        background-color: #f8f9fa !important; 
+        border-right: 1px solid #e9ecef;
+    }
+    [data-testid="stSidebar"] * { color: #333333 !important; }
+    [data-testid="stSidebar"] a { color: #0054a3 !important; }
+    
+    /* Make captions readable */
     .stApp [data-testid="stCaptionContainer"],
     .stApp [data-testid="stCaptionContainer"] p,
     .stApp [data-testid="stCaptionContainer"] span,
@@ -45,39 +52,41 @@ st.markdown("""
     .st-emotion-cache-eczf16,
     .st-emotion-cache-1gulkj5,
     .st-emotion-cache-6q9sum,
-    .st-emotion-cache-1wivap2 { color: #e2e8f0 !important; }
+    .st-emotion-cache-1wivap2 { color: #666666 !important; }
     
     .equity-card {
-        background: #252545;
+        background: #ffffff;
         padding: 1.25rem;
-        border-radius: 4px;
-        border: 1px solid #4a5568;
+        border-radius: 8px;
+        border: 1px solid #e9ecef;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         text-align: center;
         height: 100%;
     }
     
     .equity-stat {
         font-size: 1.75rem;
-        font-weight: 600;
+        font-weight: 700;
         margin: 0.5rem 0;
-        color: #ffffff;
+        color: #1a1a2e !important;
     }
     
     .finding-box {
-        background: #252545;
-        border-left: 3px solid #4299e1;
-        padding: 1rem 1.25rem;
-        border-radius: 0 4px 4px 0;
-        margin: 1rem 0;
-        color: #ffffff;
+        background: #f8f9fa;
+        border-left: 4px solid #0054a3;
+        padding: 1.25rem;
+        border-radius: 0 8px 8px 0;
+        margin: 1.5rem 0;
+        color: #333333 !important;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
     }
     
     .finding-box.warning {
-        border-left-color: #ecc94b;
+        border-left-color: #f39c12;
     }
     
     .finding-box.critical {
-        border-left-color: #fc8181;
+        border-left-color: #e74c3c;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -388,3 +397,14 @@ Based on this analysis, we recommend:
 
 4. **Maintain Equity Focus**: Current MSHP targeting appears equitable by demographics. Future expansion should maintain this balance.
 """)
+
+st.markdown("---")
+st.markdown("""
+<div class="author-footer">
+    <div class="author-name">Yoel Y. Plutchok</div>
+    <a href="https://github.com/yoelplutchok/nyc-school-environmental-health" target="_blank">View Source Code on GitHub</a>
+    <div style="color: #666666; font-size: 0.8rem; margin-top: 1rem;">
+        Data sources: NYC DOE, NYC DOHMH, Montefiore Einstein
+    </div>
+</div>
+""", unsafe_allow_html=True)

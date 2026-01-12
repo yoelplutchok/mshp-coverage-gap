@@ -18,20 +18,27 @@ st.markdown("""
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
     .stApp { 
         font-family: 'Inter', system-ui, sans-serif; 
-        background-color: #1a1a2e;
+        background-color: #ffffff;
     }
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     
-    /* Ensure readable text */
-    .stApp, .stApp p, .stApp span, .stApp div, .stApp label, .stApp h1, .stApp h2, .stApp h3 { 
-        color: #ffffff !important; 
+    /* Ensure readable text in light theme */
+    .stApp, .stApp p, .stApp span, .stApp div, .stApp label { 
+        color: #333333 !important; 
     }
-    [data-testid="stSidebar"] { background: #16162a !important; }
-    [data-testid="stSidebar"] * { color: #ffffff !important; }
-    [data-testid="stSidebar"] a { color: #90cdf4 !important; }
+    .stApp h1, .stApp h2, .stApp h3 { 
+        color: #1a1a2e !important; 
+    }
     
-    /* Make captions readable - aggressive targeting */
+    [data-testid="stSidebar"] { 
+        background-color: #f8f9fa !important; 
+        border-right: 1px solid #e9ecef;
+    }
+    [data-testid="stSidebar"] * { color: #333333 !important; }
+    [data-testid="stSidebar"] a { color: #0054a3 !important; }
+    
+    /* Make captions readable */
     .stApp [data-testid="stCaptionContainer"],
     .stApp [data-testid="stCaptionContainer"] p,
     .stApp [data-testid="stCaptionContainer"] span,
@@ -44,7 +51,7 @@ st.markdown("""
     .st-emotion-cache-eczf16,
     .st-emotion-cache-1gulkj5,
     .st-emotion-cache-6q9sum,
-    .st-emotion-cache-1wivap2 { color: #e2e8f0 !important; }
+    .st-emotion-cache-1wivap2 { color: #666666 !important; }
     
     .rank-badge {
         display: inline-flex;
@@ -53,14 +60,14 @@ st.markdown("""
         width: 36px;
         height: 36px;
         border-radius: 4px;
-        font-weight: 600;
+        font-weight: 700;
         font-size: 1rem;
     }
     
-    .rank-1 { background: #ecc94b; color: #1a202c; }
-    .rank-2 { background: #e2e8f0; color: #1a202c; }
-    .rank-3 { background: #c69c6d; color: #1a202c; }
-    .rank-other { background: #2d3748; color: #e2e8f0; }
+    .rank-1 { background: #f1c40f; color: #1a202c; }
+    .rank-2 { background: #bdc3c7; color: #1a202c; }
+    .rank-3 { background: #e67e22; color: #1a202c; }
+    .rank-other { background: #ecf0f1; color: #7f8c8d; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -297,3 +304,14 @@ with tab3:
     
     fig = apply_dark_theme(fig)
     st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")
+st.markdown("""
+<div class="author-footer">
+    <div class="author-name">Yoel Y. Plutchok</div>
+    <a href="https://github.com/yoelplutchok/nyc-school-environmental-health" target="_blank">View Source Code on GitHub</a>
+    <div style="color: #666666; font-size: 0.8rem; margin-top: 1rem;">
+        Data sources: NYC DOE, NYC DOHMH, Montefiore Einstein
+    </div>
+</div>
+""", unsafe_allow_html=True)
