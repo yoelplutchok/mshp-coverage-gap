@@ -57,3 +57,26 @@ map:
   point_size_min: 5
   point_size_max: 25
 
+# Expansion optimization weights (must sum to 1.0)
+expansion_weights:
+  priority_score: 0.35      # From existing priority ranking
+  enrollment: 0.20          # More students = more impact
+  isolation_score: 0.15     # Distance from existing MSHP
+  health_burden: 0.20       # Neighborhood health needs
+  equity_score: 0.10        # Prioritize high-poverty schools
+
+# Risk factor thresholds for intersectional analysis
+risk_thresholds:
+  poverty: 0.80             # >80% poverty = high risk
+  absenteeism: 35.0         # >35% chronic absenteeism = high risk
+  # asthma and swd use median as threshold
+
+# Health burden weights for composite score
+health_burden_weights:
+  asthma_ed_rate: 0.25
+  childhood_obesity_pct: 0.15
+  youth_mental_health_ed_rate: 0.20
+  lead_elevated_pct: 0.10
+  food_insecurity_pct: 0.15
+  preventable_hosp_rate: 0.15
+

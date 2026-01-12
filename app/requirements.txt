@@ -1,0 +1,12 @@
+# MSHP Coverage Gap Dashboard - Streamlit Requirements
+# Install with: pip install -r requirements.txt
+
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+plotly>=5.18.0
+folium>=0.15.0
+streamlit-folium>=0.15.0
+geopandas>=0.14.0
+pyyaml>=6.0
+

@@ -44,7 +44,9 @@ class JSONLHandler(logging.Handler):
                 log_entry["event_type"] = record.event_type
             if hasattr(record, "context"):
                 log_entry["context"] = record.context
-            self._file.write(json.dumps(log_entry) + "\n")
+            # `context` may include numpy scalar types which aren't JSON serializable.
+            # `default=str` keeps logging robust without breaking the pipeline.
+            self._file.write(json.dumps(log_entry, default=str) + "\n")
             self._file.flush()
         except Exception:
             self.handleError(record)
